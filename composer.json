@@ -1,0 +1,49 @@
+{
+    "name": "laravella/laravella",
+    "description": "Laravel 4 starter project with CMS powered by Angularjs, Twitter Bootstrap, HTML5 boilerplate et.al.",
+    "keywords": ["laravel","cms","radiate","laravella","ravel"],
+    "license": "BSD",
+    "authors": [
+        {
+            "name": "Raf",
+            "email": "raftalks@gmail.com",
+            "homepage": "github.com/raftalks/ravel",
+            "role": "Developer"
+        },
+        {
+            "name": "Victor Geere",
+            "email": "laravella.cms@gmail.com",
+            "homepage": "github.com/victorgeere/laravella",
+            "role": "Developer"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/laravella/crud"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/laravella/form"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/laravella/ravel"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "laravel/framework": "4.0.*",
+        "laravella/crud": "dev-master",
+        "laravella/form": "dev-master",
+        "laravella/ravel": "dev-master"
+    },
+    "autoload": {
+        "classmap": [
+            "app/controllers",
+            "app/models",
+            "app/database/migrations",
+            "app/database/seeds"
+        ]
+    }
+}
