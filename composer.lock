@@ -551,10 +551,10 @@
                     "tests/RavelTestCase.php"
                 ],
                 "files": [
-                    "src/Raftalks/Ravel/RavelHelpers.php"
+                    "src/Laravella/Ravel/RavelHelpers.php"
                 ],
                 "psr-0": {
-                    "Raftalks\\Ravel": "src/"
+                    "Laravella\\Ravel": "src/"
                 }
             },
             "license": [

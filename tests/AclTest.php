@@ -7,7 +7,7 @@ class AclTest extends RavelTestCase
 	{
 		$rolesConfig = $this->_getRolesConfig(); //Config::get('Ravel::Roles');
 		$auth = $this->_getAuthMock();
-		$this->acl = new Raftalks\Ravel\Acl\Acl($auth, $rolesConfig);
+		$this->acl = new Laravella\Ravel\Acl\Acl($auth, $rolesConfig);
 
 		$Module = $this->_getModuleMock();
 		
