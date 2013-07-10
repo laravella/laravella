@@ -2,7 +2,7 @@
     "name": "laravella/laravella",
     "description": "Laravel 4 starter project with CMS powered by Angularjs, Twitter Bootstrap, HTML5 boilerplate et.al.",
     "keywords": ["laravel","cms","radiate","laravella","ravel"],
-    "license": "BSD",
+    "license": "MIT",
     "authors": [
         {
             "name": "Raf",
