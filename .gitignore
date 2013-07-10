@@ -1,5 +1,5 @@
 app/storage
 workbench
-vendor
+/vendor
 netbeans
 public/packages/laravella
