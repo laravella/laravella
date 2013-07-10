@@ -2,6 +2,7 @@
 /app/storage/views/*
 /app/storage/sessions/*
 /app/storage/meta/*
+!.gitkeep
 /workbench
 /vendor
 /netbeans
