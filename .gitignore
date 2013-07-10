@@ -1,4 +1,7 @@
-/app/storage
+/app/storage/logs/*
+/app/storage/views/*
+/app/storage/sessions/*
+/app/storage/meta/*
 /workbench
 /vendor
 /netbeans
