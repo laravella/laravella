@@ -525,12 +525,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravella/ravel.git",
-                "reference": "0c2bbb87885495aa4ca88410965e1c7f0dd89fc6"
+                "reference": "1c54f00a468e1e78cfe2c17cd3ca88bc2b9b0e69"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravella/ravel/zipball/0c2bbb87885495aa4ca88410965e1c7f0dd89fc6",
-                "reference": "0c2bbb87885495aa4ca88410965e1c7f0dd89fc6",
+                "url": "https://api.github.com/repos/laravella/ravel/zipball/1c54f00a468e1e78cfe2c17cd3ca88bc2b9b0e69",
+                "reference": "1c54f00a468e1e78cfe2c17cd3ca88bc2b9b0e69",
                 "shasum": ""
             },
             "require": {
@@ -580,7 +580,7 @@
                 "source": "https://github.com/laravella/ravel/tree/master",
                 "issues": "https://github.com/laravella/ravel/issues"
             },
-            "time": "2013-07-10 08:17:57"
+            "time": "2013-07-11 11:45:54"
         },
         {
             "name": "mockery/mockery",
