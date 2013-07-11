@@ -58,7 +58,7 @@
                                 <li {{ (Request::is('account') ? 'class="active"' : '') }}><a href="{{ URL::to('account') }}">Account</a></li>
                                 <li><a href="{{ URL::to('account/logout') }}">Logout</a></li>
                             @else
-                                <li {{ (Request::is('admin/login') ? 'class="active"' : '') }}><a href="{{ URL::to('admin/login') }}">Login</a></li>
+                                <li {{ (Request::is('account/login') ? 'class="active"' : '') }}><a href="{{ URL::to('account/login') }}">Login</a></li>
                                 <li {{ (Request::is('account/register') ? 'class="active"' : '') }}><a href="{{ URL::to('account/register') }}">Register</a></li>
                             @endif
                         </ul>
