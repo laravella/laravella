@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "57b6635a00394c39224e13bdcd4cd28d",
+    "hash": "215fb6e0df43559c16e3ad494ee3a501",
     "packages": [
         {
             "name": "classpreloader/classpreloader",
@@ -236,56 +236,6 @@
             "time": "2013-05-10 22:13:22"
         },
         {
-            "name": "intervention/image",
-            "version": "1.4.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/Intervention/image.git",
-                "reference": "1.4.1"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/Intervention/image/zipball/1.4.1",
-                "reference": "1.4.1",
-                "shasum": ""
-            },
-            "require": {
-                "ext-gd": "*",
-                "illuminate/support": "4.*",
-                "php": ">=5.3.0"
-            },
-            "suggest": {
-                "intervention/imagecache": "Caching extension for the Intervention Image library"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-0": {
-                    "Intervention\\Image": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Oliver Vogel",
-                    "email": "oliver@olivervogel.net",
-                    "homepage": "http://olivervogel.net/"
-                }
-            ],
-            "description": "Image handling and manipulation library with support for Laravel 4 integration",
-            "homepage": "http://intervention.olivervogel.net/image/",
-            "keywords": [
-                "gd",
-                "image",
-                "laravel",
-                "thumbnail",
-                "watermark"
-            ],
-            "time": "2013-05-29 09:44:42"
-        },
-        {
             "name": "ircmaxell/password-compat",
             "version": "1.0.3",
             "source": {
@@ -433,170 +383,6 @@
                 "laravel"
             ],
             "time": "2013-06-13 04:23:25"
-        },
-        {
-            "name": "laravella/form",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/laravella/form.git",
-                "reference": "e810266f5e972c03498202a4c0ddd7a478d8a493"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/laravella/form/zipball/e810266f5e972c03498202a4c0ddd7a478d8a493",
-                "reference": "e810266f5e972c03498202a4c0ddd7a478d8a493",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.3.0"
-            },
-            "require-dev": {
-                "mockery/mockery": "0.7.*"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-0": {
-                    "Raftalks\\Form": "src"
-                }
-            },
-            "license": [
-                "BSD"
-            ],
-            "authors": [
-                {
-                    "name": "Rahmathullah Abdulfaththah (Raf)",
-                    "email": "raftalks@gmail.com",
-                    "homepage": "https://github.com/raftalks"
-                }
-            ],
-            "description": "Easy way to make Forms with PHP. Specially useful with Laravel 4.",
-            "keywords": [
-                "form",
-                "illuminate",
-                "laravel"
-            ],
-            "support": {
-                "source": "https://github.com/laravella/form/tree/master",
-                "issues": "https://github.com/laravella/form/issues"
-            },
-            "time": "2013-07-09 12:22:46"
-        },
-        {
-            "name": "laravella/ravel",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/laravella/ravel.git",
-                "reference": "b49e736d18fb4edb857402753b8ca82eff436522"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/laravella/ravel/zipball/b49e736d18fb4edb857402753b8ca82eff436522",
-                "reference": "b49e736d18fb4edb857402753b8ca82eff436522",
-                "shasum": ""
-            },
-            "require": {
-                "intervention/image": "1.4.*",
-                "laravel/framework": "4.0.*",
-                "laravella/form": "dev-master",
-                "mockery/mockery": "0.7.2",
-                "php": ">=5.3.0"
-            },
-            "type": "library",
-            "autoload": {
-                "classmap": [
-                    "src/controllers",
-                    "src/models",
-                    "src/migrations",
-                    "src/database/seeds",
-                    "src/commands",
-                    "tests/RavelTestCase.php"
-                ],
-                "files": [
-                    "src/Laravella/Ravel/RavelHelpers.php"
-                ],
-                "psr-0": {
-                    "Laravella\\Ravel": "src/"
-                }
-            },
-            "license": [
-                "BSD"
-            ],
-            "authors": [
-                {
-                    "name": "Raf",
-                    "email": "raftalks@gmail.com"
-                },
-                {
-                    "name": "Victor",
-                    "email": "laravella.cms@gmail.com"
-                }
-            ],
-            "description": "CMS Package for Laravel 4 powered with Angularjs",
-            "keywords": [
-                "cms",
-                "laravel",
-                "ravel"
-            ],
-            "support": {
-                "source": "https://github.com/laravella/ravel/tree/master",
-                "issues": "https://github.com/laravella/ravel/issues"
-            },
-            "time": "2013-07-11 15:01:29"
-        },
-        {
-            "name": "mockery/mockery",
-            "version": "0.7.2",
-            "source": {
-                "type": "git",
-                "url": "git://github.com/padraic/mockery.git",
-                "reference": "0.7.2"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://github.com/padraic/mockery/zipball/0.7.2",
-                "reference": "0.7.2",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.3.2"
-            },
-            "suggest": {
-                "Hamcrest": "1.0.0"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-0": {
-                    "Mockery": "library/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "New BSD"
-            ],
-            "authors": [
-                {
-                    "name": "Pádraic Brady",
-                    "email": "padraic.brady@gmail.com",
-                    "homepage": "http://blog.astrumfutura.com"
-                }
-            ],
-            "description": "Mockery is a simple yet flexible PHP mock object framework for use in unit testing with PHPUnit, PHPSpec or any other testing framework. Its core goal is to offer a test double framework with a succint API capable of clearly defining all possible object operations and interactions using a human readable Domain Specific Language (DSL). Designed as a drop in alternative to PHPUnit's phpunit-mock-objects library, Mockery is easy to integrate with PHPUnit and can operate alongside phpunit-mock-objects without the World ending.",
-            "homepage": "http://github.com/padraic/mockery",
-            "keywords": [
-                "BDD",
-                "TDD",
-                "library",
-                "mock",
-                "mock objects",
-                "mockery",
-                "stub",
-                "test",
-                "test double",
-                "testing"
-            ],
-            "time": "2012-01-24 12:22:39"
         },
         {
             "name": "monolog/monolog",
@@ -1625,10 +1411,9 @@
 
     ],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "laravella/form": 20,
-        "laravella/ravel": 20
-    },
+    "stability-flags": [
+
+    ],
     "platform": {
         "php": ">=5.3.0"
     },
