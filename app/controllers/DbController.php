@@ -5,23 +5,12 @@
  *
  * @author Victor
  */
-class DbController extends Controller {
+class DbController extends BaseController {
 
-    public function getIndex()
-    {
-        return "asdf"; //View::make("crud::dbview");
-    }
-
-    public function getSelect($table = null)
-    {
-        return "asdf"; //View::make("crud::dbview");
-    }
-
-    public function missingMethod($parameters)
-    {
-        return "missing";
-    }    
-
+	public function getIndex()
+	{
+		return View::make('home.index');
+	}
 
 }
 

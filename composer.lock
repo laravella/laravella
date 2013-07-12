@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "9549f09b39c0ad3604071200410c7137",
+    "hash": "57b6635a00394c39224e13bdcd4cd28d",
     "packages": [
         {
             "name": "classpreloader/classpreloader",
@@ -433,42 +433,6 @@
                 "laravel"
             ],
             "time": "2013-06-13 04:23:25"
-        },
-        {
-            "name": "laravella/crud",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/laravella/crud.git",
-                "reference": "dd0ccb86b419880acab86d1a90b555554bbe66a1"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/laravella/crud/zipball/dd0ccb86b419880acab86d1a90b555554bbe66a1",
-                "reference": "dd0ccb86b419880acab86d1a90b555554bbe66a1",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.3.0"
-            },
-            "type": "library",
-            "autoload": {
-                "classmap": [
-                    "src/controllers",
-                    "src/migrations"
-                ]
-            },
-            "authors": [
-                {
-                    "name": "laravella",
-                    "email": "laravella.cms@gmail.com"
-                }
-            ],
-            "support": {
-                "source": "https://github.com/laravella/crud/tree/master",
-                "issues": "https://github.com/laravella/crud/issues"
-            },
-            "time": "2013-07-11 15:58:50"
         },
         {
             "name": "laravella/form",
@@ -1662,7 +1626,6 @@
     ],
     "minimum-stability": "stable",
     "stability-flags": {
-        "laravella/crud": 20,
         "laravella/form": 20,
         "laravella/ravel": 20
     },
