@@ -11,6 +11,5 @@
 |
 */
 
-Route::get('db', function() { return "db";});
 Route::controller('account', 'AccountController');
 Route::controller('/', 'HomeController');
