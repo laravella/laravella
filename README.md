@@ -1,9 +1,9 @@
-Laravella 4.1.002
+Laravella 4.1.003
 ===================
 
 Laravel 4 starter project.  Hit the ground running with the most useful packages installed and integrated.
 
-Version 4.1.002
+Version 4.1.003
 -------------------
 ###cborgia/radiate
 HTML5 Boiler Plate, Twitter Bootstrap, Font Awesome, SASS, and a quick little login/register script to get you started.
@@ -21,6 +21,12 @@ Quick start guide
 2. Run : composer update (or : php composer.phar update)
 3. You should have a database server running and a target database created.
 4. edit /app/config/database.php and enter your database details.
+5. Add or edit providers in /app/config/app.php : 
+  ```'providers' => array(
+    ...
+    'Laravella\Ravel\RavelServiceProvider',
+    'Laravella\Crud\CrudServiceProvider'
+  )```
 5. Run : php artisan ravel:install
 6. You can start a development server with : php artisan serve --port 80
 7. Browse to http://localhost for the frontent or http://localhost/admin for cms console.
