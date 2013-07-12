@@ -440,12 +440,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravella/crud.git",
-                "reference": "d5c9037ba93f61fc3cab974bda926e683bc05424"
+                "reference": "ad7b6fc2cb5db9e4d4ca2e79b16a3e4f0246c92a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravella/crud/zipball/d5c9037ba93f61fc3cab974bda926e683bc05424",
-                "reference": "d5c9037ba93f61fc3cab974bda926e683bc05424",
+                "url": "https://api.github.com/repos/laravella/crud/zipball/ad7b6fc2cb5db9e4d4ca2e79b16a3e4f0246c92a",
+                "reference": "ad7b6fc2cb5db9e4d4ca2e79b16a3e4f0246c92a",
                 "shasum": ""
             },
             "require": {
@@ -471,7 +471,7 @@
                 "source": "https://github.com/laravella/crud/tree/develop-vg",
                 "issues": "https://github.com/laravella/crud/issues"
             },
-            "time": "2013-07-12 13:59:20"
+            "time": "2013-07-12 14:44:58"
         },
         {
             "name": "laravella/form",
