@@ -33,9 +33,7 @@
     ],
     "require": {
         "php": ">=5.3.0",
-        "laravel/framework": "4.0.*",
-        "laravella/form": "dev-master",
-        "laravella/ravel": "dev-master"
+        "laravel/framework": "4.0.*"
     },
     "autoload": {
         "classmap": [
