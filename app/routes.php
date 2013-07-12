@@ -12,4 +12,4 @@
 */
 
 Route::controller('account', 'AccountController');
-//Route::controller('/', 'HomeController');
+Route::controller('/', 'HomeController');
