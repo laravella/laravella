@@ -13,4 +13,3 @@
 
 Route::controller('account', 'AccountController');
 Route::controller('/', 'HomeController');
-Route::get('asdf', function() {return "asdf";});
