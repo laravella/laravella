@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "9549f09b39c0ad3604071200410c7137",
+    "hash": "5b34a09d9e68f61b90f01961107ada97",
     "packages": [
         {
             "name": "classpreloader/classpreloader",
@@ -436,16 +436,16 @@
         },
         {
             "name": "laravella/crud",
-            "version": "dev-master",
+            "version": "dev-develop-vg",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravella/crud.git",
-                "reference": "f5dc463cf937bb2b38954e54ae884ee8bdf0dfca"
+                "reference": "ad7b6fc2cb5db9e4d4ca2e79b16a3e4f0246c92a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravella/crud/zipball/f5dc463cf937bb2b38954e54ae884ee8bdf0dfca",
-                "reference": "f5dc463cf937bb2b38954e54ae884ee8bdf0dfca",
+                "url": "https://api.github.com/repos/laravella/crud/zipball/ad7b6fc2cb5db9e4d4ca2e79b16a3e4f0246c92a",
+                "reference": "ad7b6fc2cb5db9e4d4ca2e79b16a3e4f0246c92a",
                 "shasum": ""
             },
             "require": {
@@ -468,10 +468,10 @@
                 }
             ],
             "support": {
-                "source": "https://github.com/laravella/crud/tree/master",
+                "source": "https://github.com/laravella/crud/tree/develop-vg",
                 "issues": "https://github.com/laravella/crud/issues"
             },
-            "time": "2013-07-12 10:42:17"
+            "time": "2013-07-12 14:44:58"
         },
         {
             "name": "laravella/form",
