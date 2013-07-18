@@ -440,12 +440,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravella/crud.git",
-                "reference": "211c3187d562800a4413b05c65e35cb430083550"
+                "reference": "23f4253846c4576c2c369aae24db19d2042820d7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravella/crud/zipball/211c3187d562800a4413b05c65e35cb430083550",
-                "reference": "211c3187d562800a4413b05c65e35cb430083550",
+                "url": "https://api.github.com/repos/laravella/crud/zipball/23f4253846c4576c2c369aae24db19d2042820d7",
+                "reference": "23f4253846c4576c2c369aae24db19d2042820d7",
                 "shasum": ""
             },
             "require": {
@@ -472,7 +472,7 @@
                 "source": "https://github.com/laravella/crud/tree/develop-vg",
                 "issues": "https://github.com/laravella/crud/issues"
             },
-            "time": "2013-07-18 10:16:31"
+            "time": "2013-07-18 13:32:59"
         },
         {
             "name": "laravella/form",
@@ -528,12 +528,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravella/ravel.git",
-                "reference": "ada9e1935b1b782f61f56c71f4c33df0a2a28602"
+                "reference": "9d45d3ded1a8784194ffed4236effc197991b22b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravella/ravel/zipball/ada9e1935b1b782f61f56c71f4c33df0a2a28602",
-                "reference": "ada9e1935b1b782f61f56c71f4c33df0a2a28602",
+                "url": "https://api.github.com/repos/laravella/ravel/zipball/9d45d3ded1a8784194ffed4236effc197991b22b",
+                "reference": "9d45d3ded1a8784194ffed4236effc197991b22b",
                 "shasum": ""
             },
             "require": {
@@ -583,7 +583,7 @@
                 "source": "https://github.com/laravella/ravel/tree/master",
                 "issues": "https://github.com/laravella/ravel/issues"
             },
-            "time": "2013-07-15 09:21:10"
+            "time": "2013-07-18 13:26:19"
         },
         {
             "name": "mockery/mockery",
