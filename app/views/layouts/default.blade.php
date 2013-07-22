@@ -50,7 +50,7 @@
                         <ul class="nav">
                             <li {{ (Request::is('/') ? 'class="active"' : '') }}><a href="{{ URL::to('') }}"><i class="icon-home"></i> Home</a></li>
                         </ul>
-
+                        
                         <ul class="nav pull-right">
                             @if (Auth::check())
                                 <li class="navbar-text">Logged in as {{ Auth::user()->fullName() }}</li>
