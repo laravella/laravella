@@ -2151,7 +2151,16 @@ namespace Symfony\Component\HttpFoundation\Session\Storage {
             if ($destroy) {
                 $this->metadataBag->stampNew();
             }
-            return session_regenerate_id($destroy);
+            $ret = session_regenerate_id($destroy);
+            session_write_close();
+            if (isset($_SESSION)) {
+                $backup = $_SESSION;
+                session_start();
+                $_SESSION = $backup;
+            } else {
+                session_start();
+            }
+            return $ret;
         }
         public function save()
         {
