@@ -6,6 +6,5 @@
 /workbench
 /vendor
 /netbeans
-/public/packages/laravella
 composer.lock
 /bootstrap/compiled.php
