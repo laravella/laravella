@@ -41,7 +41,7 @@
         "laravella/crud": "dev-develop-vg",
         "laravella/form": "dev-master",
         "laravella/ravel": "dev-master",
-        "cartalys/sentry": "dev-master"
+        "cartalyst/sentry": "dev-master"
     },
     "autoload": {
         "classmap": [
