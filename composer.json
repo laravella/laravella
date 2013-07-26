@@ -29,6 +29,10 @@
         {
             "type": "vcs",
             "url": "https://github.com/laravella/ravel"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/cartalyst/sentry"
         }
     ],
     "require": {
@@ -36,7 +40,8 @@
         "laravel/framework": "4.0.*",
         "laravella/crud": "dev-develop-vg",
         "laravella/form": "dev-master",
-        "laravella/ravel": "dev-master"
+        "laravella/ravel": "dev-master",
+        "cartalys/sentry": "dev-master"
     },
     "autoload": {
         "classmap": [
