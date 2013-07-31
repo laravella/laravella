@@ -24,6 +24,10 @@
         },
         {
             "type": "vcs",
+            "url": "https://github.com/laravella/cms"
+        },
+        {
+            "type": "vcs",
             "url": "https://github.com/laravella/form"
         },
         {
@@ -41,6 +45,7 @@
         "laravella/crud": "dev-develop-vg",
         "laravella/form": "dev-master",
         "laravella/ravel": "dev-master",
+        "laravella/cms": "dev-master",
         "cartalyst/sentry": "dev-master"
     },
     "autoload": {

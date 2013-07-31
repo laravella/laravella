@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "30e987502771fa8db4b32c23cc4f507d",
+    "hash": "8f95a21b9cdf0f5be5aa70eab4e10b67",
     "packages": [
         {
             "name": "cartalyst/sentry",
@@ -534,21 +534,61 @@
             "time": "2013-06-13 04:23:25"
         },
         {
+            "name": "laravella/cms",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/laravella/cms.git",
+                "reference": "eb3b3128ed7c37b97374909eef30c249b2e6517c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/laravella/cms/zipball/eb3b3128ed7c37b97374909eef30c249b2e6517c",
+                "reference": "eb3b3128ed7c37b97374909eef30c249b2e6517c",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/support": "4.0.x",
+                "laravella/crud": "dev-develop-vg",
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "src/controllers",
+                    "src/database/migrations",
+                    "src/database/seeds"
+                ]
+            },
+            "authors": [
+                {
+                    "name": "laravella",
+                    "email": "laravella.cms@gmail.com"
+                }
+            ],
+            "description": "Laravella CMS",
+            "support": {
+                "source": "https://github.com/laravella/cms/tree/master",
+                "issues": "https://github.com/laravella/cms/issues"
+            },
+            "time": "2013-07-30 15:25:31"
+        },
+        {
             "name": "laravella/crud",
             "version": "dev-develop-vg",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravella/crud.git",
-                "reference": "616528c0eed95d322fdecce14cff5be86e9d5ac5"
+                "reference": "52a8c55abc0b7a1e7bd8fdc0fa2440b67cdc93e9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravella/crud/zipball/616528c0eed95d322fdecce14cff5be86e9d5ac5",
-                "reference": "616528c0eed95d322fdecce14cff5be86e9d5ac5",
+                "url": "https://api.github.com/repos/laravella/crud/zipball/52a8c55abc0b7a1e7bd8fdc0fa2440b67cdc93e9",
+                "reference": "52a8c55abc0b7a1e7bd8fdc0fa2440b67cdc93e9",
                 "shasum": ""
             },
             "require": {
-                "cartalyst/sentry": "2.0.*@dev",
+                "illuminate/support": "4.0.x",
                 "php": ">=5.3.0"
             },
             "type": "library",
@@ -557,7 +597,8 @@
                     "src/controllers",
                     "src/models",
                     "src/models/meta",
-                    "src/migrations"
+                    "src/database/migrations",
+                    "src/database/seeds"
                 ],
                 "psr-0": {
                     "Laravella\\Crud": "src/"
@@ -573,7 +614,7 @@
                 "source": "https://github.com/laravella/crud/tree/develop-vg",
                 "issues": "https://github.com/laravella/crud/issues"
             },
-            "time": "2013-07-26 07:51:09"
+            "time": "2013-07-30 15:11:05"
         },
         {
             "name": "laravella/form",
@@ -629,12 +670,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravella/ravel.git",
-                "reference": "9d45d3ded1a8784194ffed4236effc197991b22b"
+                "reference": "f124b3c8e80d40844e9ba6f775e48e263c5ac653"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravella/ravel/zipball/9d45d3ded1a8784194ffed4236effc197991b22b",
-                "reference": "9d45d3ded1a8784194ffed4236effc197991b22b",
+                "url": "https://api.github.com/repos/laravella/ravel/zipball/f124b3c8e80d40844e9ba6f775e48e263c5ac653",
+                "reference": "f124b3c8e80d40844e9ba6f775e48e263c5ac653",
                 "shasum": ""
             },
             "require": {
@@ -684,7 +725,7 @@
                 "source": "https://github.com/laravella/ravel/tree/master",
                 "issues": "https://github.com/laravella/ravel/issues"
             },
-            "time": "2013-07-18 13:26:19"
+            "time": "2013-07-30 15:11:34"
         },
         {
             "name": "mockery/mockery",
@@ -930,16 +971,16 @@
         },
         {
             "name": "predis/predis",
-            "version": "v0.8.3",
+            "version": "v0.8.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nrk/predis.git",
-                "reference": "v0.8.3"
+                "reference": "v0.8.4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nrk/predis/zipball/v0.8.3",
-                "reference": "v0.8.3",
+                "url": "https://api.github.com/repos/nrk/predis/zipball/v0.8.4",
+                "reference": "v0.8.4",
                 "shasum": ""
             },
             "require": {
@@ -973,7 +1014,7 @@
                 "predis",
                 "redis"
             ],
-            "time": "2013-02-18 14:03:45"
+            "time": "2013-07-27 09:13:54"
         },
         {
             "name": "psr/log",
@@ -1770,6 +1811,7 @@
         "laravella/crud": 20,
         "laravella/form": 20,
         "laravella/ravel": 20,
+        "laravella/cms": 20,
         "cartalyst/sentry": 20
     },
     "platform": {
