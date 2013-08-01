@@ -3,8 +3,107 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "5b34a09d9e68f61b90f01961107ada97",
+    "hash": "8f95a21b9cdf0f5be5aa70eab4e10b67",
     "packages": [
+        {
+            "name": "cartalyst/sentry",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/cartalyst/sentry.git",
+                "reference": "v2.0.0-RC2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/cartalyst/sentry/zipball/v2.0.0-RC2",
+                "reference": "v2.0.0-RC2",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3"
+            },
+            "require-dev": {
+                "illuminate/cookie": "4.0.*",
+                "illuminate/database": "4.0.*",
+                "illuminate/session": "4.0.*",
+                "ircmaxell/password-compat": "1.0.*",
+                "mockery/mockery": "0.7.2"
+            },
+            "suggest": {
+                "illuminate/database": "Default sentry user, group and throttling implementations.",
+                "ircmaxell/password-compat": "Default hashing uses PHP 5.5 password_* functions, with forward-compatible support."
+            },
+            "type": "library",
+            "extra": {
+                "component": "package",
+                "frameworks": [
+                    "Laravel 3",
+                    "Laravel 4",
+                    "CodeIgniter 3",
+                    "FuelPHP 1"
+                ],
+                "versions": {
+                    "1": "1.1/master",
+                    "2": "master"
+                },
+                "branch-alias": {
+                    "dev-master": "2.0-dev"
+                }
+            },
+            "autoload": {
+                "classmap": [
+                    "src/Cartalyst/Sentry/Groups/Exceptions.php",
+                    "src/Cartalyst/Sentry/Throttling/Exceptions.php",
+                    "src/Cartalyst/Sentry/Users/Exceptions.php",
+                    "src/migrations"
+                ],
+                "psr-0": {
+                    "Cartalyst\\Sentry": "src/"
+                }
+            },
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Cartalyst LLC",
+                    "email": "help@cartalyst.com"
+                },
+                {
+                    "name": "Dan Syme",
+                    "email": "dan.syme@cartalyst.com",
+                    "role": "Creator & Designer"
+                },
+                {
+                    "name": "Ben Corlett",
+                    "email": "ben.corlett@cartalyst.com",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Daniel Petrie",
+                    "email": "dan.petrie@cartalyst.com",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Bruno Gaspar",
+                    "email": "bruno.gaspar@cartalyst.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "PHP 5.3+ Fully-featured Authentication & Authorization System",
+            "keywords": [
+                "auth",
+                "codeigniter",
+                "fuelphp",
+                "laravel",
+                "security"
+            ],
+            "support": {
+                "source": "https://github.com/cartalyst/sentry/tree/v2.0.0-RC2",
+                "issues": "https://github.com/cartalyst/sentry/issues"
+            },
+            "time": "2013-07-13 05:06:11"
+        },
         {
             "name": "classpreloader/classpreloader",
             "version": "1.0.1",
@@ -435,20 +534,61 @@
             "time": "2013-06-13 04:23:25"
         },
         {
+            "name": "laravella/cms",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/laravella/cms.git",
+                "reference": "eb3b3128ed7c37b97374909eef30c249b2e6517c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/laravella/cms/zipball/eb3b3128ed7c37b97374909eef30c249b2e6517c",
+                "reference": "eb3b3128ed7c37b97374909eef30c249b2e6517c",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/support": "4.0.x",
+                "laravella/crud": "dev-develop-vg",
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "src/controllers",
+                    "src/database/migrations",
+                    "src/database/seeds"
+                ]
+            },
+            "authors": [
+                {
+                    "name": "laravella",
+                    "email": "laravella.cms@gmail.com"
+                }
+            ],
+            "description": "Laravella CMS",
+            "support": {
+                "source": "https://github.com/laravella/cms/tree/master",
+                "issues": "https://github.com/laravella/cms/issues"
+            },
+            "time": "2013-07-30 15:25:31"
+        },
+        {
             "name": "laravella/crud",
             "version": "dev-develop-vg",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravella/crud.git",
-                "reference": "8c7b452c44c7d4ed8a4ca77c42dde8d7d301242d"
+                "reference": "52a8c55abc0b7a1e7bd8fdc0fa2440b67cdc93e9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravella/crud/zipball/8c7b452c44c7d4ed8a4ca77c42dde8d7d301242d",
-                "reference": "8c7b452c44c7d4ed8a4ca77c42dde8d7d301242d",
+                "url": "https://api.github.com/repos/laravella/crud/zipball/52a8c55abc0b7a1e7bd8fdc0fa2440b67cdc93e9",
+                "reference": "52a8c55abc0b7a1e7bd8fdc0fa2440b67cdc93e9",
                 "shasum": ""
             },
             "require": {
+                "illuminate/support": "4.0.x",
                 "php": ">=5.3.0"
             },
             "type": "library",
@@ -457,7 +597,8 @@
                     "src/controllers",
                     "src/models",
                     "src/models/meta",
-                    "src/migrations"
+                    "src/database/migrations",
+                    "src/database/seeds"
                 ],
                 "psr-0": {
                     "Laravella\\Crud": "src/"
@@ -473,7 +614,7 @@
                 "source": "https://github.com/laravella/crud/tree/develop-vg",
                 "issues": "https://github.com/laravella/crud/issues"
             },
-            "time": "2013-07-23 09:58:01"
+            "time": "2013-07-30 15:11:05"
         },
         {
             "name": "laravella/form",
@@ -529,12 +670,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravella/ravel.git",
-                "reference": "9d45d3ded1a8784194ffed4236effc197991b22b"
+                "reference": "f124b3c8e80d40844e9ba6f775e48e263c5ac653"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravella/ravel/zipball/9d45d3ded1a8784194ffed4236effc197991b22b",
-                "reference": "9d45d3ded1a8784194ffed4236effc197991b22b",
+                "url": "https://api.github.com/repos/laravella/ravel/zipball/f124b3c8e80d40844e9ba6f775e48e263c5ac653",
+                "reference": "f124b3c8e80d40844e9ba6f775e48e263c5ac653",
                 "shasum": ""
             },
             "require": {
@@ -584,7 +725,7 @@
                 "source": "https://github.com/laravella/ravel/tree/master",
                 "issues": "https://github.com/laravella/ravel/issues"
             },
-            "time": "2013-07-18 13:26:19"
+            "time": "2013-07-30 15:11:34"
         },
         {
             "name": "mockery/mockery",
@@ -830,16 +971,16 @@
         },
         {
             "name": "predis/predis",
-            "version": "v0.8.3",
+            "version": "v0.8.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nrk/predis.git",
-                "reference": "v0.8.3"
+                "reference": "v0.8.4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nrk/predis/zipball/v0.8.3",
-                "reference": "v0.8.3",
+                "url": "https://api.github.com/repos/nrk/predis/zipball/v0.8.4",
+                "reference": "v0.8.4",
                 "shasum": ""
             },
             "require": {
@@ -873,7 +1014,7 @@
                 "predis",
                 "redis"
             ],
-            "time": "2013-02-18 14:03:45"
+            "time": "2013-07-27 09:13:54"
         },
         {
             "name": "psr/log",
@@ -1669,7 +1810,9 @@
     "stability-flags": {
         "laravella/crud": 20,
         "laravella/form": 20,
-        "laravella/ravel": 20
+        "laravella/ravel": 20,
+        "laravella/cms": 20,
+        "cartalyst/sentry": 20
     },
     "platform": {
         "php": ">=5.3.0"

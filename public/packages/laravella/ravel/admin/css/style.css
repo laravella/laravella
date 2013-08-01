@@ -36,7 +36,6 @@ h4            { font-size: 16px; padding: 0 0 5px 0; }
 h5            { font-size: 14px; padding: 0 0 5px 0; }
 h6            { font-size: 12px; padding: 0 0 5px 0; }
 
-span.h1a           { color : #b0b0b0}
 
 a              { color: #57a000; text-decoration: none; }
 a:hover     { color: #000; }
@@ -412,7 +411,7 @@ ul.content-box-tabs li a.current {
 /************ Table ************/
 
 #main-content table {
-                /* width: 100%; */
+                width: 100%;
                 border-collapse: collapse;
                 }
                 
