@@ -1,0 +1,1 @@
+http://glyphicons.com/license
