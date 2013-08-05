@@ -11,12 +11,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/cartalyst/sentry.git",
-                "reference": "v2.0.0-RC2"
+                "reference": "ce6407573d50cd3f283e9fd53c4e79dd96db0f19"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cartalyst/sentry/zipball/v2.0.0-RC2",
-                "reference": "v2.0.0-RC2",
+                "url": "https://api.github.com/repos/cartalyst/sentry/zipball/ce6407573d50cd3f283e9fd53c4e79dd96db0f19",
+                "reference": "ce6407573d50cd3f283e9fd53c4e79dd96db0f19",
                 "shasum": ""
             },
             "require": {
@@ -99,10 +99,10 @@
                 "security"
             ],
             "support": {
-                "source": "https://github.com/cartalyst/sentry/tree/v2.0.0-RC2",
+                "source": "https://github.com/cartalyst/sentry/tree/master",
                 "issues": "https://github.com/cartalyst/sentry/issues"
             },
-            "time": "2013-07-13 05:06:11"
+            "time": "2013-08-01 01:26:29"
         },
         {
             "name": "classpreloader/classpreloader",
@@ -579,12 +579,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravella/crud.git",
-                "reference": "52a8c55abc0b7a1e7bd8fdc0fa2440b67cdc93e9"
+                "reference": "ef8f667e8d61de69fd3b567a92b8d5384e4dfd49"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravella/crud/zipball/52a8c55abc0b7a1e7bd8fdc0fa2440b67cdc93e9",
-                "reference": "52a8c55abc0b7a1e7bd8fdc0fa2440b67cdc93e9",
+                "url": "https://api.github.com/repos/laravella/crud/zipball/ef8f667e8d61de69fd3b567a92b8d5384e4dfd49",
+                "reference": "ef8f667e8d61de69fd3b567a92b8d5384e4dfd49",
                 "shasum": ""
             },
             "require": {
@@ -614,7 +614,7 @@
                 "source": "https://github.com/laravella/crud/tree/develop-vg",
                 "issues": "https://github.com/laravella/crud/issues"
             },
-            "time": "2013-07-30 15:11:05"
+            "time": "2013-08-01 07:21:12"
         },
         {
             "name": "laravella/form",
@@ -670,12 +670,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravella/ravel.git",
-                "reference": "f124b3c8e80d40844e9ba6f775e48e263c5ac653"
+                "reference": "48ed635499e7352307616ced04a7d2f368f8eb3a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravella/ravel/zipball/f124b3c8e80d40844e9ba6f775e48e263c5ac653",
-                "reference": "f124b3c8e80d40844e9ba6f775e48e263c5ac653",
+                "url": "https://api.github.com/repos/laravella/ravel/zipball/48ed635499e7352307616ced04a7d2f368f8eb3a",
+                "reference": "48ed635499e7352307616ced04a7d2f368f8eb3a",
                 "shasum": ""
             },
             "require": {
@@ -725,7 +725,7 @@
                 "source": "https://github.com/laravella/ravel/tree/master",
                 "issues": "https://github.com/laravella/ravel/issues"
             },
-            "time": "2013-07-30 15:11:34"
+            "time": "2013-08-01 07:23:54"
         },
         {
             "name": "mockery/mockery",
