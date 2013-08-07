@@ -2,9 +2,8 @@
 /app/storage/views/*
 /app/storage/sessions/*
 /app/storage/meta/*
-!.gitkeep
+/netbeans/*
 /workbench
 /vendor
-/netbeans
 composer.lock
 /bootstrap/compiled.php
