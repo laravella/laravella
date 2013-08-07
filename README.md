@@ -23,17 +23,10 @@ Quick start guide
 + **Run : composer update** (or : php composer.phar update)
 + You should have a database server running and a target database created.
 + **Edit database details** in /app/config/database.php.
-+ **Add providers** in /app/config/app.php : 
-
-> `'providers' => array(...` 
-
-> `'Laravella\Ravel\RavelServiceProvider',` 
-
-> `'Laravella\Crud\CrudServiceProvider')`
-
 + **Initialize the database** with `php artisan ravel:install` from the command line
 + You can start a development server with : `php artisan serve --port 80` from the command line
-+ **Generate metadata** by browsing to <http://localhost/dbinstall/install>
++ **Generate metadata tables** by browsing to <http://localhost/dbinstall/install>
++ **Generate metadata** by browsing to <http://localhost/dbinstall/seeder>
 + Browse to :
  
 > <http://localhost> for the frontent 
@@ -42,10 +35,17 @@ Quick start guide
 
 > <http://localhost/db> for crud console 
 
+Default username is admin and password is ravel
+
++ **Refresh metadata** by browsing to <http://localhost/dbinstall/seeder> after you've created/altered your own tables.
+
 License
 -------------------
 http://opensource.org/licenses/MIT
 
 What's new
 -------------------
-4.1.004
+4.1.005
+Added Galleries
+Cleaned up installation
+Field relations in _db_fields now display the fully qualified field name
