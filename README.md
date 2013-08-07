@@ -46,6 +46,6 @@ http://opensource.org/licenses/MIT
 What's new
 -------------------
 4.1.005
-> Added Galleries
-> Cleaned up installation
-> Field relations in _db_fields now display the fully qualified field name
++ Added Galleries
++ Cleaned up installation
++ Field relations in _db_fields now display the fully qualified field name
