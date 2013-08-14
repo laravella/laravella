@@ -44,10 +44,9 @@ Quick start guide
 9. Browse to :
 > <http://localhost> for the frontend <br />
 > <http://localhost/admin> for the cms console <br />
-> <http://localhost/db/select/_db_tables> for crud console 
-> <http://localhost/db/select/{tablename}> to edit an existing table 
+> <http://localhost/db/select/_db_tables> for crud console  <br />
+> <http://localhost/db/select/{tablename}> to edit an existing table  <br />
 > Default username is **admin** and password is **ravel**
-
 10. Run `php artisan crud:install` again to regenerate meta data after you've added or altered tables.
 
 API Docs
