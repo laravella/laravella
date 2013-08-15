@@ -6,7 +6,9 @@ Laravel 4 starter project.  Hit the ground running with the most useful packages
 Github
 -------------------
 + [Project Home](https://github.com/laravella/laravella)
++ [Documentation](http://laravella.github.io/docs/)
 + [Download](https://github.com/laravella/laravella/archive/master.zip) 
++ [Issues and Questions](https://github.com/laravella/laravella/issues)
 
 Included
 -------------------
@@ -26,7 +28,7 @@ A demo shopping cart built on laravella/crud (just an example project).
 A starter package for laravel. Includes a facade, artisan commands, IoC class, migrations and database seed examples.
 
 ###laravella/cms
-A content management system and blog built on crud.
+A content management system and blog built on crud.  It supplements laravella/ravel at the moment but will eventually replace it.
 
 Quick start guide
 -------------------
@@ -64,5 +66,8 @@ http://opensource.org/licenses/MIT
 
 What's new
 -------------------
+4.1.007 <br />
+Options and option categories
+
 4.1.006 <br />
 dynamic menus
