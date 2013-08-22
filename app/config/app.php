@@ -113,8 +113,10 @@ return array(
 		'Illuminate\Validation\ValidationServiceProvider',
 		'Illuminate\View\ViewServiceProvider',
 		'Illuminate\Workbench\WorkbenchServiceProvider',
+                'Laravella\CMS\CMSServiceProvider',
                 'Laravella\Crud\CrudServiceProvider',
-                'Laravella\Ravel\RavelServiceProvider'
+                'Laravella\Ravel\RavelServiceProvider',
+                'Laravella\Uploader\UploaderServiceProvider'
 
 	),
 

@@ -32,6 +32,10 @@
         },
         {
             "type": "vcs",
+            "url": "https://github.com/laravella/uploader"
+        },
+        {
+            "type": "vcs",
             "url": "https://github.com/laravella/ravel"
         },
         {
@@ -46,6 +50,7 @@
         "laravella/form": "dev-master",
         "laravella/ravel": "dev-master",
         "laravella/cms": "dev-master",
+        "laravella/uploader": "dev-master",
         "cartalyst/sentry": "dev-master"
     },
     "autoload": {
