@@ -36,10 +36,6 @@
         },
         {
             "type": "vcs",
-            "url": "https://github.com/laravella/ravel"
-        },
-        {
-            "type": "vcs",
             "url": "https://github.com/cartalyst/sentry"
         }
     ],
@@ -48,7 +44,6 @@
         "laravel/framework": "4.0.*",
         "laravella/crud": "dev-develop-vg",
         "laravella/form": "dev-master",
-        "laravella/ravel": "dev-master",
         "laravella/cms": "dev-master",
         "laravella/uploader": "dev-master",
         "cartalyst/sentry": "dev-master"
