@@ -7,13 +7,13 @@
         {
             "name": "Raf",
             "email": "raftalks@gmail.com",
-            "homepage": "github.com/raftalks/ravel",
+            "homepage": "http://github.com/raftalks/ravel",
             "role": "Developer"
         },
         {
             "name": "Victor Geere",
             "email": "laravella.cms@gmail.com",
-            "homepage": "github.com/victorgeere/laravella",
+            "homepage": "http://github.com/victorgeere/laravella",
             "role": "Developer"
         }
     ],
