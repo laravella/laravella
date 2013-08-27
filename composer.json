@@ -55,7 +55,11 @@
             "app/models",
             "app/database/migrations",
             "app/database/seeds"
-        ]
+        ],
+        "psr-0": {
+            "Laravella\\Laravella": "app/"
+        }
+
     },
     "minimum-stability": "dev"
 }

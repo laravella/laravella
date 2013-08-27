@@ -81,11 +81,11 @@ Route::get('/post/{postId}', function($id)
  * All pages go through this route, except the home page
  * Slug is a machine friendly version of the page title e.g. The Page Title = the-page-title
  */
-Route::controller('/page/{pageSlug}', 'PageController');
-
-Route::controller('/media/{mcollection}', 'MediaController');
-
-Route::get('/gallery/{gallery}', 'MediaController@getGallery');
+//Route::controller('/page/{pageSlug}', 'PageController');
+//
+//Route::controller('/media/{mcollection}', 'MediaController');
+//
+//Route::get('/gallery/{gallery}', 'MediaController@getGallery');
 
 /**
  * Process Logout process

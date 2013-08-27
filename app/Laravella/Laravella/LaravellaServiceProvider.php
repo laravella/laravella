@@ -18,9 +18,9 @@ class LaravellaServiceProvider extends ServiceProvider {
 	 */
 	public function boot()
 	{
-		$this->package('laravella/laravella');
+//		$this->package('laravella/laravella');
 
-		include __DIR__.'/../../routes/routes.php';         
+		include __DIR__.'/../../routes.php';         
 		
 		$this->registerCommands();
 				
