@@ -41,7 +41,7 @@
     ],
     "require": {
         "php": ">=5.3.0",
-        "laravel/framework": "4.0.*",
+        "laravel/framework": "4.0.*@dev",
         "laravella/crud": "dev-develop-vg",
         "laravella/form": "dev-master",
         "laravella/cms": "dev-master",
@@ -55,5 +55,6 @@
             "app/database/migrations",
             "app/database/seeds"
         ]
-    }
+    },
+    "minimum-stability": "dev"
 }
