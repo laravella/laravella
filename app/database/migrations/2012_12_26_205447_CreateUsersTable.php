@@ -14,6 +14,8 @@ class CreateUsersTable extends Migration
 	{
 		// Create the users table.
 		//
+            if (!Schema::hasTable('users'))
+            {
 		Schema::create('users', function($table)
 		{
 			$table->increments('id');
@@ -23,6 +25,7 @@ class CreateUsersTable extends Migration
 			$table->string('last_name');
 			$table->timestamps();
 		});
+            }
 	}
 
 	/**
@@ -33,6 +36,6 @@ class CreateUsersTable extends Migration
 	 */
 	public function down()
 	{
-		Schema::drop('users');
+		Schema::dropIfExists('users');
 	}
 }
