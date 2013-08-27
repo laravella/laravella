@@ -116,6 +116,7 @@ return array(
                 'Laravella\Laravella\LaravellaServiceProvider',
                 'Laravella\CMS\CMSServiceProvider',
                 'Laravella\Crud\CrudServiceProvider',
+                'Laravella\Cart\CartServiceProvider',
                 'Laravella\Uploader\UploaderServiceProvider'
 
 	),

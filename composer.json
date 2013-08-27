@@ -1,6 +1,6 @@
 {
     "name": "laravella/laravella",
-    "description": "Laravel 4 starter project with CMS powered by Angularjs, Twitter Bootstrap, HTML5 boilerplate et.al.",
+    "description": "Laravel 4 starter project with CRUD, CMS, Twitter Bootstrap, HTML5 boilerplate et.al.",
     "keywords": ["laravel","cms","radiate","laravella","ravel"],
     "license": "MIT",
     "authors": [
@@ -28,7 +28,7 @@
         },
         {
             "type": "vcs",
-            "url": "https://github.com/laravella/form"
+            "url": "https://github.com/laravella/cart"
         },
         {
             "type": "vcs",
@@ -44,7 +44,7 @@
         "laravel/framework": "4.0.*@dev",
         "illuminate/support": "4.1.*@dev",
         "laravella/crud": "dev-develop-vg",
-        "laravella/form": "dev-master",
+        "laravella/cart": "dev-master",
         "laravella/cms": "dev-master",
         "laravella/uploader": "dev-master",
         "cartalyst/sentry": "dev-master"
