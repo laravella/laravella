@@ -42,7 +42,6 @@
     "require": {
         "php": ">=5.3.0",
         "laravel/framework": "4.0.*@dev",
-        "illuminate/support": "4.1.*@dev",
         "laravella/crud": "dev-develop-vg",
         "laravella/cart": "dev-master",
         "laravella/cms": "dev-master",
@@ -53,6 +52,7 @@
         "classmap": [
             "app/controllers",
             "app/models",
+            "app/commands",
             "app/database/migrations",
             "app/database/seeds"
         ],
