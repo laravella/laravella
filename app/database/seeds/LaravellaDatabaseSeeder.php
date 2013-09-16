@@ -12,6 +12,7 @@ class LaravellaDatabaseSeeder extends Seeder {
 //		Eloquent::unguard();
 
 		$this->call('ApplicationSeeder');
+                
 	}
 
 }

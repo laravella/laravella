@@ -48,7 +48,6 @@ class LaravellaInstallCommand extends Command {
 // Setup Migrations and Assets
         $this->call('cms:install');
         $this->call('crud:install');
-        $this->call('uploader:install');
 
 // Publish the Assets
         $this->call('asset:publish');
@@ -59,7 +58,11 @@ class LaravellaInstallCommand extends Command {
 
 // Run again to calculate metadata for all new tables
         $this->call('crud:install');
+        $this->call('uploader:install');
 
+//update cms fields' meta data e.g. custom display types etc.
+        $this->call('db:seed',array('--class'=>'Laravella\\CMS\\CrudSeeder'));
+        
         $this->info('Laravella installation complete.');
     }
 
