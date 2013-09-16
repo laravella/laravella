@@ -53,7 +53,7 @@
             "app/controllers",
             "app/models",
             "app/commands",
-            "app/database/migrations",
+            "app/migrations",
             "app/database/seeds"
         ],
         "psr-0": {
