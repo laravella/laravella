@@ -7,5 +7,5 @@
 /vendor
 composer.lock
 /bootstrap/compiled.php
-public/uploads/*
-public/packages/*
+/public/uploads/*
+/public/packages/*
