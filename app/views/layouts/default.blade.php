@@ -36,6 +36,10 @@
             <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
         <![endif]-->
 
+        @include('crud::layouts.admin.navbar')
+        @yield('navbar')
+        
+        {{--
         <!-- Navbar -->
         <div class="navbar navbar-fixed-top" style="-webkit-border-radius: 0; -moz-border-radius: 0; border-radius: 0;">
             <div class="navbar-inner">
@@ -71,7 +75,7 @@
             </div>
         </div>
         <!-- ./ navbar -->
-        
+        --}}
 
         <!-- Add your site or application content here -->
         <!-- Container -->
