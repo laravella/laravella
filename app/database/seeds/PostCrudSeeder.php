@@ -48,15 +48,32 @@ class PostCrudSeeder extends CrudSeeder {
         $this->tableActionViewId('galleries', 'getSelect', 'crud::dbview')->update(array('title'=>'Galleries'));
         $this->tableActionViewId('users', 'getSelect', 'crud::dbview')->update(array('title'=>'Users'));
         $this->tableActionViewId('usergroups', 'getSelect', 'crud::dbview')->update(array('title'=>'User Groups'));
+        $this->tableActionViewId('categories', 'getSelect', 'crud::dbview')->update(array('title'=>'Categories'));
         
         //hide fields
         $nodisplayId = $this->getId('_db_display_types', 'name', 'nodisplay');
         
         $this->updateOrInsert('_db_fields', array('fullname'=>'contents.content_mime_type'), array('display_type_id'=>$nodisplayId));
         
+        $widgetId = $this->getId('_db_display_types', 'name', 'widget');
+        $checkboxId = $this->getId('_db_widget_types', 'name', 'input:checkbox');
+        $this->updateOrInsert('_db_fields', array('fullname'=>'medias.approved'), array('display_type_id'=>$widgetId, 'widget_type_id'=>$checkboxId));
+        $this->updateOrInsert('_db_fields', array('fullname'=>'medias.publish'), array('display_type_id'=>$widgetId, 'widget_type_id'=>$checkboxId));
+        
         //change field titles
         $this->updateOrInsert('_db_fields', array('fullname'=>'contents.lang'), array('label'=>'Language'));
         $this->updateOrInsert('_db_fields', array('fullname'=>'contents.title'), array('display_order'=>'0'));
+        
+        $this->updateOrInsert('_db_fields', array('fullname'=>'contents.title'), array('display_order'=>'0'));
+
+        $ugId = $this->getId('usergroups', 'group', 'admin');
+        
+        $mId = $this->getId('_db_menus', 'label', 'Meta Data');
+        $this->delete('_db_menu_permissions', array('usergroup_id'=>$ugId, 'menu_id'=>$mId));
+        
+        $mId = $this->getId('_db_menus', 'label', 'Menus');
+        $this->delete('_db_menu_permissions', array('usergroup_id'=>$ugId, 'menu_id'=>$mId));
+        
         
     }
 
