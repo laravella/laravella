@@ -33,10 +33,6 @@
         {
             "type": "vcs",
             "url": "https://github.com/laravella/uploader"
-        },
-        {
-            "type": "vcs",
-            "url": "https://github.com/cartalyst/sentry"
         }
     ],
     "require": {
@@ -45,8 +41,7 @@
         "laravella/crud": "dev-develop-vg",
         "laravella/cart": "dev-master",
         "laravella/cms": "dev-master",
-        "laravella/uploader": "dev-master",
-        "cartalyst/sentry": "dev-master"
+        "laravella/uploader": "dev-master"
     },
     "autoload": {
         "classmap": [
