@@ -1,4 +1,5 @@
 <?php
+use Laravella\Crud\Params;
 
 class AccountController extends AuthorizedController {
 
@@ -25,7 +26,10 @@ class AccountController extends AuthorizedController {
     {
         // Show the page.
         //
-		return View::make('account/index')->with('user', Auth::user());
+        $menu = Params::getUserMenu();
+		return View::make('account/index')
+                    ->with('user', Auth::user())
+                    ->with('menu', $menu);
     }
 
     /**
@@ -44,6 +48,7 @@ class AccountController extends AuthorizedController {
             'email' => 'Required|Email|Unique:users,email,' . Auth::user()->email . ',email',
         );
 
+                
         // If we are updating the password.
         //
 		if (Input::get('password'))
@@ -85,6 +90,7 @@ class AccountController extends AuthorizedController {
 			return Redirect::to('account')->with('success', 'Account updated with success!');
         }
 
+                
         // Something went wrong.
         //
 		return Redirect::to('account')->withInput($inputs)->withErrors($validator->messages());

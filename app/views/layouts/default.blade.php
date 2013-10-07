@@ -8,7 +8,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         <title>
             @section('title')
-            Laravel Radiate
+            Laravella
             @show
         </title>
         <meta name="description" content="">
@@ -38,7 +38,7 @@
 
         @include('crud::layouts.admin.navbar')
         @yield('navbar')
-        
+
         {{--
         <!-- Navbar -->
         <div class="navbar navbar-fixed-top" style="-webkit-border-radius: 0; -moz-border-radius: 0; border-radius: 0;">
@@ -55,7 +55,7 @@
                             <li {{ (Request::is('/') ? 'class="active"' : '') }}><a href="{{ URL::to('') }}"><i class="icon-home"></i> Home</a></li>
                         </ul>
                         <ul class="nav">
-                            <li {{ (Request::is('/db/select/contents') ? 'class="active"' : '') }}><a href="{{ URL::to('db/select/contents') }}"><i class="icon-file"></i> Contents</a></li>
+                            <li {{ (Request::is('/db/select/contents') ? 'class="active"' : '') }}><a href="{{ URL::to('db/select/contents') }}"><i class="icon-file"></i> Contents </a></li>
                         </ul>
 
                         <ul class="nav pull-right">
