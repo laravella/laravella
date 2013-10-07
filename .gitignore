@@ -5,7 +5,7 @@
 /netbeans/*
 /workbench
 /vendor
-composer.lock
+/composer.lock
 /bootstrap/compiled.php
 /public/uploads/*
 /public/packages/*
