@@ -44,33 +44,28 @@ function sendSearch() {
 function sendDelete() {
     var recNo = null;
     var tableName = null;
-    $('a.record.active').each(function(index) {
-        console.log($(this).attr('id'));
-        tableName = $(this).attr('data-tablename');
-        console.log(tableName);
-        recNo = $(this).attr('data-recordid');
-        console.log(recNo);
+    if (confirm('Would you like to delete the selected records?')) {
+        $('a.record.active').each(function(index) {
+            console.log(index);
+            console.log($(this).attr('id'));
+            tableName = $(this).attr('data-tablename');
+            console.log(tableName);
+            recNo = $(this).attr('data-recordid');
+            console.log(recNo);
 
-        console.log('/dbapi/delete/' + tableName + '/' + recNo);
+            console.log('/dbapi/delete/' + tableName + '/' + recNo);
 
-        $.get('/dbapi/delete/' + tableName + '/' + recNo, '', function(data) {
             $('#tr-' + tableName + '-' + recNo).remove();
-            //console.log(data);
+            
+            $.get('/dbapi/delete/' + tableName + '/' + recNo, '', function(data) {
+            });
+
         });
-
-        /*
-         $.ajax({
-         data: encodeURIComponent(data),
-         type: "GET",
-         url: '/dbapi/delete/'+tableName+'/'+recNo,
-         timeout: 20000,
-         contentType: "application/x-www-form-urlencoded;charset=utf-8",
-         dataType: 'json',
-         success: function(data) {console.log(data);}
-         });        
-         */
-
-    });
+    } else {
+        $('a.record.active').each(function(index) {
+            $(this).click();
+        });
+    }
 }
 
 function checkRec(recNo) {
