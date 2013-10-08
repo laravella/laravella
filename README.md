@@ -9,6 +9,7 @@ Github
 + [Documentation](http://laravella.github.io/docs/)
 + [Download](https://github.com/laravella/laravella/archive/master.zip) 
 + [Issues and Questions](https://github.com/laravella/laravella/issues)
++ [Wiki] (https://github.com/laravella/laravella/wiki)
 
 Included
 -------------------
