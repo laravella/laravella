@@ -34,7 +34,7 @@ A sweet file uploader from [blueimp](https://github.com/blueimp/jQuery-File-Uplo
 <hr />
 <a href="http://laravella.github.io/docs/images/large-upload.png"><img alt="File Uploads" src="http://laravella.github.io/docs/images/large-upload.png" title="File Uploads" style="border:5px solid #f0e0d0; width: 640px" /></a>
 <hr />
-<a href="http://laravella.github.io/docs/images/large-upload.png"><img alt="Menu Permissions" src="http://laravella.github.io/docs/images/large-upload.png" title="Menu Permissions" style="border:5px solid #f0e0d0; width: 640px" /></a>
+<a href="http://laravella.github.io/docs/images/large-menu-permissions.png"><img alt="Menu Permissions" src="http://laravella.github.io/docs/images/large-menu-permissions.png" title="Menu Permissions" style="border:5px solid #f0e0d0; width: 640px" /></a>
 <hr />
 
 Quick start guide
