@@ -9,6 +9,7 @@ Github
 + [Documentation](http://laravella.github.io/docs/)
 + [Download](https://github.com/laravella/laravella/archive/master.zip) 
 + [Issues and Questions](https://github.com/laravella/laravella/issues)
++ [Wiki] (https://github.com/laravella/laravella/wiki)
 
 Included
 -------------------
@@ -30,12 +31,12 @@ A content management system and blog built on crud.
 ###laravella/uploader
 A sweet file uploader from [blueimp](https://github.com/blueimp/jQuery-File-Upload) packaged for laravel and integrated into Laravella/CMS.
 
-<h2 id="screenshots">Screenshots</h2>
-<hr />
-<a href="images/large-upload.png"><img alt="File Uploads" src="images/large-upload.png" title="File Uploads" style="border:5px solid #f0e0d0; width: 640px" /></a>
-<hr />
-<a href="images/large-menu-permissions.png"><img alt="Menu Permissions" src="images/large-menu-permissions.png" title="Menu Permissions" style="border:5px solid #f0e0d0; width: 640px" /></a>
-<hr />
+Screenshots
+-------------------
+<a href="http://laravella.github.io/docs/images/large-upload.png"><img alt="File Uploads" src="http://laravella.github.io/docs/images/large-upload.png" title="File Uploads" style="border:5px solid #f0e0d0; width: 640px" /></a>
+
+<a href="http://laravella.github.io/docs/images/large-menu-permissions.png"><img alt="Menu Permissions" src="http://laravella.github.io/docs/images/large-menu-permissions.png" title="Menu Permissions" style="border:5px solid #f0e0d0; width: 640px" /></a>
+
 
 Quick start guide
 -------------------
@@ -53,9 +54,8 @@ Quick start guide
 7. You can start a development server with : `php artisan serve --port 80` from the command line
 8. Browse to :
 > <http://localhost> for the frontend <br />
-> <http://localhost/db/select/_db_tables> for crud console  <br />
-> <http://localhost/db/select/{tablename}> to edit an existing table  <br />
-> Default username is **admin@yourwebsite.com** and password is **ravel**
+> <http://localhost/admin> for crud console  <br />
+> Default username is **superadmin@yourwebsite.com** and password is **ravel**
 9. Run `php artisan crud:install` again to regenerate meta data after you've added or altered tables.
 
 API Docs
