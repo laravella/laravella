@@ -35,6 +35,12 @@ class ApplicationSeeder extends CrudSeeder {
          * 
          * $this->addMenu('Pages', '/db/select/contents', 'icon-file', $contentId);
          */
+        
+        /**
+         * Register a new view
+         * 
+         *  $this->addView("crud::dbview");
+         */
     }
 
 }
