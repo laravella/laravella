@@ -42,6 +42,7 @@ class PostCrudSeeder extends CrudSeeder {
         $this->tableActionViewId('_db_option_types', 'getSelect', 'crud::dbview')->update(array('title'=>'Option Types'));
         $this->tableActionViewId('_db_options', 'getSelect', 'crud::dbview')->update(array('title'=>'Options'));
         $this->tableActionViewId('_db_keys', 'getSelect', 'crud::dbview')->update(array('title'=>'Keys'));
+        $this->tableActionViewId('_db_key_fields', 'getSelect', 'crud::dbview')->update(array('title'=>'Key Fields'));
         $this->tableActionViewId('_db_key_types', 'getSelect', 'crud::dbview')->update(array('title'=>'Key Types'));
         //cms
         $this->tableActionViewId('medias', 'getSelect', 'crud::dbview')->update(array('title'=>'Media'));
@@ -64,8 +65,6 @@ class PostCrudSeeder extends CrudSeeder {
         
         //change field titles
         $this->updateOrInsert('_db_fields', array('fullname'=>'contents.lang'), array('label'=>'Language'));
-        $this->updateOrInsert('_db_fields', array('fullname'=>'contents.title'), array('display_order'=>'0'));
-        
         $this->updateOrInsert('_db_fields', array('fullname'=>'contents.title'), array('display_order'=>'0'));
 
         $ugId = $this->getId('usergroups', 'group', 'admin');

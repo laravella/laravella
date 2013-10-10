@@ -615,24 +615,24 @@
         },
         {
             "name": "jeremeamia/SuperClosure",
-            "version": "1.0.0",
+            "version": "1.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/jeremeamia/super_closure.git",
-                "reference": "dba99c01800510c2d78a15d8579a49673072f270"
+                "reference": "d05400085f7d4ae6f20ba30d36550836c0d061e8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/jeremeamia/super_closure/zipball/dba99c01800510c2d78a15d8579a49673072f270",
-                "reference": "dba99c01800510c2d78a15d8579a49673072f270",
+                "url": "https://api.github.com/repos/jeremeamia/super_closure/zipball/d05400085f7d4ae6f20ba30d36550836c0d061e8",
+                "reference": "d05400085f7d4ae6f20ba30d36550836c0d061e8",
                 "shasum": ""
             },
             "require": {
-                "nikic/php-parser": "dev-master",
+                "nikic/php-parser": "~0.9",
                 "php": ">=5.3.3"
             },
             "require-dev": {
-                "phpunit/phpunit": "3.7.*"
+                "phpunit/phpunit": "~3.7"
             },
             "type": "library",
             "autoload": {
@@ -649,7 +649,7 @@
                     "name": "Jeremy Lindblom"
                 }
             ],
-            "description": "Doing interesting things with closures like serialization and partial function application.",
+            "description": "Doing interesting things with closures like serialization.",
             "homepage": "https://github.com/jeremeamia/super_closure",
             "keywords": [
                 "closure",
@@ -659,7 +659,7 @@
                 "serialize",
                 "tokenizer"
             ],
-            "time": "2013-06-14 07:20:08"
+            "time": "2013-10-09 04:20:00"
         },
         {
             "name": "laravel/framework",
@@ -667,12 +667,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "c19577e961ff20930bf1abe97b3d7c1442a531c8"
+                "reference": "ca479b70564e503e1044dc2591a749bbee6e29f6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/c19577e961ff20930bf1abe97b3d7c1442a531c8",
-                "reference": "c19577e961ff20930bf1abe97b3d7c1442a531c8",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/ca479b70564e503e1044dc2591a749bbee6e29f6",
+                "reference": "ca479b70564e503e1044dc2591a749bbee6e29f6",
                 "shasum": ""
             },
             "require": {
@@ -772,7 +772,7 @@
                 "framework",
                 "laravel"
             ],
-            "time": "2013-10-07 03:08:23"
+            "time": "2013-10-08 21:32:37"
         },
         {
             "name": "laravella/cart",
@@ -890,12 +890,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravella/crud.git",
-                "reference": "e43a698f1b14b55205997183bb1127ed1c7d0327"
+                "reference": "529f03de8e2de74926c09091faabaf0a656e9861"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravella/crud/zipball/e43a698f1b14b55205997183bb1127ed1c7d0327",
-                "reference": "e43a698f1b14b55205997183bb1127ed1c7d0327",
+                "url": "https://api.github.com/repos/laravella/crud/zipball/529f03de8e2de74926c09091faabaf0a656e9861",
+                "reference": "529f03de8e2de74926c09091faabaf0a656e9861",
                 "shasum": ""
             },
             "require": {
@@ -936,7 +936,7 @@
                 "source": "https://github.com/laravella/crud/tree/develop-vg",
                 "issues": "https://github.com/laravella/crud/issues"
             },
-            "time": "2013-10-04 11:43:40"
+            "time": "2013-10-09 07:32:19"
         },
         {
             "name": "laravella/uploader",
