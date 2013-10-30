@@ -32,6 +32,10 @@
         },
         {
             "type": "vcs",
+            "url": "https://github.com/laravella/skins"
+        },
+        {
+            "type": "vcs",
             "url": "https://github.com/laravella/uploader"
         }
     ],
@@ -41,7 +45,8 @@
         "laravella/crud": "dev-develop-vg",
         "laravella/cart": "dev-master",
         "laravella/cms": "dev-master",
-        "laravella/uploader": "dev-master"
+        "laravella/uploader": "dev-master",
+        "laravella/skins": "dev-master"
     },
     "autoload": {
         "classmap": [
