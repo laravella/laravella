@@ -37,7 +37,9 @@ class LaravellaUpdateCommand extends Command {
 	 */
 	public function fire()
 	{
-		$this->info('Update complete.');
+            $this->call('db:seed', array('--class' => 'Dataphile\\Cart\\PostCrudSeeder'));
+
+            $this->info('Update complete.');
 	}
 
 	/**

@@ -42,26 +42,23 @@ class LaravellaInstallCommand extends Command {
 // Link all !
         $this->call('dump-autoload');
 
-// Clear all past migrations
-//        $this->call('migrate:reset');
-
+// Publish the Assets
+        $this->call('asset:publish');
+//        $this->call('config:publish');
+        
 // Setup Migrations and Assets
         $this->call('cms:install');
         $this->call('crud:install');
-
-// Publish the Assets
-        $this->call('asset:publish');
-
-//install user app        
-        $this->call('migrate', array('--package' => 'laravella/laravella'));
-        $this->call('db:seed', array('--class' => 'LaravellaDatabaseSeeder'));
-
-// Run again to calculate metadata for all new tables
-        $this->call('crud:install');
+        $this->call('skins:install');
         $this->call('uploader:install');
 
-//update cms fields' meta data e.g. custom display types etc.
-        $this->call('db:seed',array('--class'=>'Laravella\\CMS\\CrudSeeder'));
+// install user app        
+        $this->call('cart:install');
+
+// Run again to calculate metadata for all new tables
+        $this->call('crud:update');
+        
+// update cms fields' meta data e.g. custom display types etc.
         $this->call('db:seed', array('--class' => 'PostCrudSeeder'));
         
         $this->info('Laravella installation complete.');

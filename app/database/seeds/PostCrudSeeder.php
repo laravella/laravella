@@ -15,7 +15,7 @@ class PostCrudSeeder extends CrudSeeder {
         $actionId = $this->getId('_db_actions', 'name', $actionName);
         $viewId = $this->getId('_db_views', 'name', $viewName);
         
-        $recs = DB::table('_db_table_action_views')->where('table_id', $tableId)
+        $recs = DB::table('_db_pages')->where('table_id', $tableId)
                 ->where('action_id', $actionId)
                 ->where('view_id', $viewId);
         return $recs;
@@ -26,7 +26,7 @@ class PostCrudSeeder extends CrudSeeder {
         // change table titles in select lists
         //crud
         $this->tableActionViewId('_db_severities', 'getSelect', 'crud::dbview')->update(array('title'=>'Severities'));
-        $this->tableActionViewId('_db_table_action_views', 'getSelect', 'crud::dbview')->update(array('title'=>'Table Action Views'));
+        $this->tableActionViewId('_db_pages', 'getSelect', 'crud::dbview')->update(array('title'=>'Pages'));
         $this->tableActionViewId('_db_tables', 'getSelect', 'crud::dbview')->update(array('title'=>'Tables'));
         $this->tableActionViewId('_db_user_permissions', 'getSelect', 'crud::dbview')->update(array('title'=>'User Permissions'));
         $this->tableActionViewId('_db_usergroup_permissions', 'getSelect', 'crud::dbview')->update(array('title'=>'Usergroup Permissions'));

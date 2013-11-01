@@ -1,7 +1,8 @@
 <?php
+
 use Laravella\Crud\Params;
 
-class AccountController extends AuthorizedController {
+class AccountController extends DbController {
 
     /**
      * Let's whitelist all the methods we want to allow guests to visit!
@@ -27,9 +28,9 @@ class AccountController extends AuthorizedController {
         // Show the page.
         //
         $menu = Params::getUserMenu();
-		return View::make('account/index')
-                    ->with('user', Auth::user())
-                    ->with('menu', $menu);
+        return View::make('skins::' . Options::get('skin') . '.account.index')
+                        ->with('user', Auth::user())
+                        ->with('menu', $menu);
     }
 
     /**
@@ -42,20 +43,20 @@ class AccountController extends AuthorizedController {
     {
         // Declare the rules for the form validation.
         //
-		$rules = array(
+        $rules = array(
             'first_name' => 'Required',
             'last_name' => 'Required',
             'email' => 'Required|Email|Unique:users,email,' . Auth::user()->email . ',email',
         );
 
-                
+
         // If we are updating the password.
         //
 		if (Input::get('password'))
         {
             // Update the validation rules.
             //
-			$rules['password'] = 'Required|Confirmed';
+            $rules['password'] = 'Required|Confirmed';
             $rules['password_confirmation'] = 'Required';
         }
 
@@ -73,7 +74,7 @@ class AccountController extends AuthorizedController {
         {
             // Create the user.
             //
-			$user = User::find(Auth::user()->id);
+            $user = User::find(Auth::user()->id);
             $user->first_name = Input::get('first_name');
             $user->last_name = Input::get('last_name');
             $user->email = Input::get('email');
@@ -87,13 +88,13 @@ class AccountController extends AuthorizedController {
 
             // Redirect to the register page.
             //
-			return Redirect::to('account')->with('success', 'Account updated with success!');
+            return Redirect::to('account')->with('success', 'Account updated with success!');
         }
 
-                
+
         // Something went wrong.
         //
-		return Redirect::to('account')->withInput($inputs)->withErrors($validator->messages());
+        return Redirect::to('account')->withInput($inputs)->withErrors($validator->messages());
     }
 
     /**
@@ -106,14 +107,16 @@ class AccountController extends AuthorizedController {
     {
         // Are we logged in?
         //
-		if (Auth::check())
-        {
-            return Redirect::to('account');
-        }
-
+//		if (Auth::check())
+//        {
+//            return Redirect::to('admin');
+//        }
         // Show the page.
         //
-		return View::make('account/login');
+        $viewName = 'skins::' . Options::get('skin') . '.account.login';
+        $params = new Params(self::SUCCESS, '', null, $viewName, 'getLogin');
+
+        return View::make($viewName)->with($params->asArray());
     }
 
     /**
@@ -126,14 +129,14 @@ class AccountController extends AuthorizedController {
     {
         // Declare the rules for the form validation.
         //
-		$rules = array(
+            $rules = array(
             'email' => 'required|email',
             'password' => 'required'
         );
 
         // Get all the inputs.
         //
-		$email = Input::get('email');
+        $email = Input::get('email');
         $password = Input::get('password');
 
         // Validate the inputs.
@@ -142,21 +145,21 @@ class AccountController extends AuthorizedController {
 
         // Check if the form validates with success.
         //
-		if ($validator->passes())
+        if ($validator->passes())
         {
             // Try to log the user in.
             //
-			if (Auth::attempt(array('email' => $email, 'password' => $password)))
+            if (Auth::attempt(array('email' => $email, 'password' => $password)))
             {
                 // Redirect to the users page.
                 //
-				return Redirect::to('account')->with('success', 'You have logged in successfully');
+                return Redirect::to('db/select/contents')->with('success', 'You have logged in successfully');
             }
             else
             {
                 // Redirect to the login page.
                 //
-				return Redirect::to('account/login')->with('error', 'Email/password invalid.');
+                return Redirect::to('account/login')->with('error', 'Email/password invalid.');
             }
         }
 

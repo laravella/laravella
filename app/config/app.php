@@ -115,11 +115,14 @@ return array(
 		'Illuminate\Validation\ValidationServiceProvider',
 		'Illuminate\View\ViewServiceProvider',
 		'Illuminate\Workbench\WorkbenchServiceProvider',
+            
                 'Laravella\Laravella\LaravellaServiceProvider',
                 'Laravella\CMS\CMSServiceProvider',
                 'Laravella\Crud\CrudServiceProvider',
                 'Laravella\Cart\CartServiceProvider',
-                'Laravella\Uploader\UploaderServiceProvider'
+                'Laravella\Uploader\UploaderServiceProvider',
+                'Laravella\Skins\SkinsServiceProvider'
+            
 
 	),
 
