@@ -1,6 +1,5 @@
 <?php
 
-
 Route::filter('frontfilter', function($route)
 {
     if (Request::segment(1) == 'en' && Request::segment(2) == 'list')
@@ -14,6 +13,6 @@ Route::filter('frontfilter', function($route)
 Route::when('en/*', 'frontfilter'); //guest use i.e. front end
 
 Route::controller('en', 'PageController');
-
+Route::controller('/', 'PageController');
 
 ?>
