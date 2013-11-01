@@ -48,15 +48,16 @@ class LaravellaInstallCommand extends Command {
         
 // Setup Migrations and Assets
         $this->call('cms:install');
-        $this->call('crud:install');
         $this->call('skins:install');
         $this->call('uploader:install');
-
-// install user app        
         $this->call('cart:install');
+        
+        $this->call('crud:install');
 
-// Run again to calculate metadata for all new tables
-        $this->call('crud:update');
+        $this->call('cms:install');
+        $this->call('skins:install');
+        $this->call('uploader:install');
+        $this->call('cart:install');
         
 // update cms fields' meta data e.g. custom display types etc.
         $this->call('db:seed', array('--class' => 'PostCrudSeeder'));

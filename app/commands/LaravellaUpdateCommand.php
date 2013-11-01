@@ -37,7 +37,7 @@ class LaravellaUpdateCommand extends Command {
 	 */
 	public function fire()
 	{
-            $this->call('db:seed', array('--class' => 'Dataphile\\Cart\\PostCrudSeeder'));
+            $this->call('db:seed', array('--class' => 'Laravella\\Crud\\PostCrudSeeder'));
 
             $this->info('Update complete.');
 	}
@@ -50,7 +50,7 @@ class LaravellaUpdateCommand extends Command {
 	protected function getArguments()
 	{
 		return array(
-			array('example', InputArgument::REQUIRED, 'An example argument.'),
+//			array('example', InputArgument::REQUIRED, 'An example argument.'),
 		);
 	}
 
@@ -62,7 +62,7 @@ class LaravellaUpdateCommand extends Command {
 	protected function getOptions()
 	{
 		return array(
-			array('example', null, InputOption::VALUE_OPTIONAL, 'An example option.', null),
+//			array('example', null, InputOption::VALUE_OPTIONAL, 'An example option.', null),
 		);
 	}
 
