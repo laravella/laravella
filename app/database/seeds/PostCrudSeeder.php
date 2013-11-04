@@ -25,33 +25,34 @@ class PostCrudSeeder extends CrudSeeder {
     {
         // change table titles in select lists
         //crud
-        $this->tableActionViewId('_db_severities', 'getSelect', 'crud::dbview')->update(array('title'=>'Severities'));
-        $this->tableActionViewId('_db_pages', 'getSelect', 'crud::dbview')->update(array('title'=>'Pages'));
-        $this->tableActionViewId('_db_tables', 'getSelect', 'crud::dbview')->update(array('title'=>'Tables'));
-        $this->tableActionViewId('_db_user_permissions', 'getSelect', 'crud::dbview')->update(array('title'=>'User Permissions'));
-        $this->tableActionViewId('_db_usergroup_permissions', 'getSelect', 'crud::dbview')->update(array('title'=>'Usergroup Permissions'));
-        $this->tableActionViewId('_db_views', 'getSelect', 'crud::dbview')->update(array('title'=>'Views'));
-        $this->tableActionViewId('_db_widget_types', 'getSelect', 'crud::dbview')->update(array('title'=>'Widget Types'));
-        $this->tableActionViewId('_db_actions', 'getSelect', 'crud::dbview')->update(array('title'=>'Actions'));
-        $this->tableActionViewId('_db_audit', 'getSelect', 'crud::dbview')->update(array('title'=>'Audit'));
-        $this->tableActionViewId('_db_display_types', 'getSelect', 'crud::dbview')->update(array('title'=>'Display Types'));
-        $this->tableActionViewId('_db_fields', 'getSelect', 'crud::dbview')->update(array('title'=>'Fields'));
-        $this->tableActionViewId('_db_logs', 'getSelect', 'crud::dbview')->update(array('title'=>'Logs'));
-        $this->tableActionViewId('_db_menu_permissions', 'getSelect', 'crud::dbview')->update(array('title'=>'Menu Permissions'));
-        $this->tableActionViewId('_db_menus', 'getSelect', 'crud::dbview')->update(array('title'=>'Menus'));
-        $this->tableActionViewId('_db_option_types', 'getSelect', 'crud::dbview')->update(array('title'=>'Option Types'));
-        $this->tableActionViewId('_db_options', 'getSelect', 'crud::dbview')->update(array('title'=>'Options'));
-        $this->tableActionViewId('_db_keys', 'getSelect', 'crud::dbview')->update(array('title'=>'Keys'));
-        $this->tableActionViewId('_db_key_fields', 'getSelect', 'crud::dbview')->update(array('title'=>'Key Fields'));
-        $this->tableActionViewId('_db_key_types', 'getSelect', 'crud::dbview')->update(array('title'=>'Key Types'));
+        //$this->setTitle($slug, $title);
+        $this->setTitle('_db_severities_getSelect', 'Severities');
+        $this->setTitle('_db_pages_getSelect', 'Pages');
+        $this->setTitle('_db_tables_getSelect', 'Tables');
+        $this->setTitle('_db_user_permissions_getSelect', 'User Permissions');
+        $this->setTitle('_db_usergroup_permissions_getSelect', 'Usergroup Permissions');
+        $this->setTitle('_db_views_getSelect', 'Views');
+        $this->setTitle('_db_widget_types_getSelect', 'Widget Types');
+        $this->setTitle('_db_actions_getSelect', 'Actions');
+        $this->setTitle('_db_audit_getSelect', 'Audit');
+        $this->setTitle('_db_display_types_getSelect', 'Display Types');
+        $this->setTitle('_db_fields_getSelect', 'Fields');
+        $this->setTitle('_db_logs_getSelect', 'Logs');
+        $this->setTitle('_db_menu_permissions_getSelect', 'Menu Permissions');
+        $this->setTitle('_db_menus_getSelect', 'Menus');
+        $this->setTitle('_db_option_types_getSelect', 'Option Types');
+        $this->setTitle('_db_options_getSelect', 'Options');
+        $this->setTitle('_db_keys_getSelect', 'Keys');
+        $this->setTitle('_db_key_fields_getSelect', 'Key Fields');
+        $this->setTitle('_db_key_types_getSelect', 'Key Types');
         //cms
-        $this->tableActionViewId('medias', 'getSelect', 'crud::dbview')->update(array('title'=>'Media'));
-        $this->tableActionViewId('contents', 'getSelect', 'crud::dbview')->update(array('title'=>'Content'));
-        $this->tableActionViewId('mcollections', 'getSelect', 'crud::dbview')->update(array('title'=>'Media Collections'));
-        $this->tableActionViewId('galleries', 'getSelect', 'crud::dbview')->update(array('title'=>'Galleries'));
-        $this->tableActionViewId('users', 'getSelect', 'crud::dbview')->update(array('title'=>'Users'));
-        $this->tableActionViewId('usergroups', 'getSelect', 'crud::dbview')->update(array('title'=>'User Groups'));
-        $this->tableActionViewId('categories', 'getSelect', 'crud::dbview')->update(array('title'=>'Categories'));
+        $this->setTitle('medias_getSelect', 'Media');
+        $this->setTitle('contents_getSelect', 'Content');
+        $this->setTitle('mcollections_getSelect', 'Media Collections');
+        $this->setTitle('galleries_getSelect', 'Galleries');
+        $this->setTitle('users_getSelect', 'Users');
+        $this->setTitle('usergroups_getSelect', 'User Groups');
+        $this->setTitle('categories_getSelect', 'Categories');
         
         //hide fields
         $nodisplayId = $this->getId('_db_display_types', 'name', 'nodisplay');
