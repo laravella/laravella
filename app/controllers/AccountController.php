@@ -25,12 +25,17 @@ class AccountController extends DbController {
      */
     public function getIndex()
     {
+        $viewName = 'skins::' . Options::get('skin') . '.account.index';
+        $params = new Params(self::SUCCESS, '', null, $viewName, 'getSelect');
+
+        return View::make($viewName)->with($params->asArray());
+        
         // Show the page.
         //
-        $menu = Params::getUserMenu();
-        return View::make('skins::' . Options::get('skin') . '.account.index')
-                        ->with('user', Auth::user())
-                        ->with('menu', $menu);
+//        $menu = Params::getUserMenu();
+//        return View::make('skins::' . Options::get('skin') . '.account.index')
+//                        ->with('user', Auth::user())
+//                        ->with('menu', $menu);
     }
 
     /**

@@ -948,12 +948,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravella/skins.git",
-                "reference": "fb0ee390dc89c08bc4c171a59a41192fcc6d7934"
+                "reference": "0c86663a392234e0bc578f3f20108e30e0fe7f81"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravella/skins/zipball/fb0ee390dc89c08bc4c171a59a41192fcc6d7934",
-                "reference": "fb0ee390dc89c08bc4c171a59a41192fcc6d7934",
+                "url": "https://api.github.com/repos/laravella/skins/zipball/0c86663a392234e0bc578f3f20108e30e0fe7f81",
+                "reference": "0c86663a392234e0bc578f3f20108e30e0fe7f81",
                 "shasum": ""
             },
             "require": {
@@ -983,7 +983,7 @@
                 "source": "https://github.com/laravella/skins/tree/master",
                 "issues": "https://github.com/laravella/skins/issues"
             },
-            "time": "2013-11-01 13:37:59"
+            "time": "2013-11-05 07:48:35"
         },
         {
             "name": "laravella/uploader",
