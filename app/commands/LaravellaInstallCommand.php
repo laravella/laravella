@@ -60,7 +60,7 @@ class LaravellaInstallCommand extends Command {
         $this->call('cart:update');
         
 // update cms fields' meta data e.g. custom display types etc.
-        $this->call('db:seed', array('--class' => 'PostCrudSeeder'));
+        $this->call('db:seed', array('--class' => 'Laravella\\Crud\\PostCrudSeeder'));
         
         $this->info('Laravella installation complete.');
     }
