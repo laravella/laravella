@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "37d8002c5c05576f4ea665e96bcbdcd2",
+    "hash": "3f75f3f47f0c00931aa596afc71ec59e",
     "packages": [
         {
             "name": "classpreloader/classpreloader",
@@ -671,12 +671,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "7afae9546a7600f4b910e93e4f0213da3deece4c"
+                "reference": "5076824d4c0d4299522010ddb0bf03e7c96278ec"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/7afae9546a7600f4b910e93e4f0213da3deece4c",
-                "reference": "7afae9546a7600f4b910e93e4f0213da3deece4c",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/5076824d4c0d4299522010ddb0bf03e7c96278ec",
+                "reference": "5076824d4c0d4299522010ddb0bf03e7c96278ec",
                 "shasum": ""
             },
             "require": {
@@ -776,20 +776,20 @@
                 "framework",
                 "laravel"
             ],
-            "time": "2013-10-31 21:15:49"
+            "time": "2013-11-05 01:52:53"
         },
         {
             "name": "laravella/cart",
-            "version": "dev-master",
+            "version": "v4.0.20131105-beta",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravella/cart.git",
-                "reference": "b1b554b7208ffb5e06344069755c124b9150e692"
+                "reference": "76aaff1fcc8a847dfbec2f5dfd8c27b43684af2b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravella/cart/zipball/b1b554b7208ffb5e06344069755c124b9150e692",
-                "reference": "b1b554b7208ffb5e06344069755c124b9150e692",
+                "url": "https://api.github.com/repos/laravella/cart/zipball/76aaff1fcc8a847dfbec2f5dfd8c27b43684af2b",
+                "reference": "76aaff1fcc8a847dfbec2f5dfd8c27b43684af2b",
                 "shasum": ""
             },
             "require": {
@@ -822,32 +822,30 @@
             "description": "A shopping cart",
             "keywords": [
                 "cms",
-                "laravel",
-                "ravel"
+                "laravel"
             ],
             "support": {
                 "source": "https://github.com/laravella/cart/tree/master",
                 "issues": "https://github.com/laravella/cart/issues"
             },
-            "time": "2013-11-01 13:30:58"
+            "time": "2013-11-05 10:06:47"
         },
         {
             "name": "laravella/cms",
-            "version": "dev-master",
+            "version": "v4.0.20131105-beta",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravella/cms.git",
-                "reference": "cf79e61c27d4c8433c90dd1bc27b6e7862f1d7b9"
+                "reference": "a4799841acfa26fd39bc692ca52d95f24e86e7e3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravella/cms/zipball/cf79e61c27d4c8433c90dd1bc27b6e7862f1d7b9",
-                "reference": "cf79e61c27d4c8433c90dd1bc27b6e7862f1d7b9",
+                "url": "https://api.github.com/repos/laravella/cms/zipball/a4799841acfa26fd39bc692ca52d95f24e86e7e3",
+                "reference": "a4799841acfa26fd39bc692ca52d95f24e86e7e3",
                 "shasum": ""
             },
             "require": {
                 "illuminate/support": "4.0.x@dev",
-                "laravella/crud": "dev-develop-vg",
                 "php": ">=5.3.0"
             },
             "type": "library",
@@ -879,27 +877,26 @@
             "description": "Laravella CMS",
             "keywords": [
                 "cms",
-                "laravel",
-                "ravel"
+                "laravel"
             ],
             "support": {
                 "source": "https://github.com/laravella/cms/tree/master",
                 "issues": "https://github.com/laravella/cms/issues"
             },
-            "time": "2013-11-01 13:31:40"
+            "time": "2013-11-05 11:07:27"
         },
         {
             "name": "laravella/crud",
-            "version": "dev-develop-vg",
+            "version": "v4.0.20131105-beta",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravella/crud.git",
-                "reference": "f15f6bc03a8c459faaa88a2289c47922b2d07a58"
+                "reference": "47e2278d29178f691f44e12504f342e8abea82d6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravella/crud/zipball/f15f6bc03a8c459faaa88a2289c47922b2d07a58",
-                "reference": "f15f6bc03a8c459faaa88a2289c47922b2d07a58",
+                "url": "https://api.github.com/repos/laravella/crud/zipball/47e2278d29178f691f44e12504f342e8abea82d6",
+                "reference": "47e2278d29178f691f44e12504f342e8abea82d6",
                 "shasum": ""
             },
             "require": {
@@ -933,27 +930,26 @@
             "description": "Crud",
             "keywords": [
                 "cms",
-                "laravel",
-                "ravel"
+                "laravel"
             ],
             "support": {
-                "source": "https://github.com/laravella/crud/tree/develop-vg",
+                "source": "https://github.com/laravella/crud/tree/v4.0.20131105-beta",
                 "issues": "https://github.com/laravella/crud/issues"
             },
-            "time": "2013-11-01 12:18:00"
+            "time": "2013-11-05 12:03:25"
         },
         {
             "name": "laravella/skins",
-            "version": "dev-master",
+            "version": "v4.0.20131105-beta",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravella/skins.git",
-                "reference": "0c86663a392234e0bc578f3f20108e30e0fe7f81"
+                "reference": "a5d3129ec073e16746ca9a1228b1d72fe3db054a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravella/skins/zipball/0c86663a392234e0bc578f3f20108e30e0fe7f81",
-                "reference": "0c86663a392234e0bc578f3f20108e30e0fe7f81",
+                "url": "https://api.github.com/repos/laravella/skins/zipball/a5d3129ec073e16746ca9a1228b1d72fe3db054a",
+                "reference": "a5d3129ec073e16746ca9a1228b1d72fe3db054a",
                 "shasum": ""
             },
             "require": {
@@ -983,20 +979,20 @@
                 "source": "https://github.com/laravella/skins/tree/master",
                 "issues": "https://github.com/laravella/skins/issues"
             },
-            "time": "2013-11-05 07:48:35"
+            "time": "2013-11-05 10:23:42"
         },
         {
             "name": "laravella/uploader",
-            "version": "dev-master",
+            "version": "v4.0.20131105-beta",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravella/uploader.git",
-                "reference": "411ef8af5700eb8fbf38f17f6a66d2b8b78368e3"
+                "reference": "4ee68b67a7dc22d1fbc6b0e6ce5c044557f8f6fc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravella/uploader/zipball/411ef8af5700eb8fbf38f17f6a66d2b8b78368e3",
-                "reference": "411ef8af5700eb8fbf38f17f6a66d2b8b78368e3",
+                "url": "https://api.github.com/repos/laravella/uploader/zipball/4ee68b67a7dc22d1fbc6b0e6ce5c044557f8f6fc",
+                "reference": "4ee68b67a7dc22d1fbc6b0e6ce5c044557f8f6fc",
                 "shasum": ""
             },
             "require": {
@@ -1037,7 +1033,7 @@
                 "source": "https://github.com/laravella/uploader/tree/master",
                 "issues": "https://github.com/laravella/uploader/issues"
             },
-            "time": "2013-11-01 13:41:36"
+            "time": "2013-11-05 10:24:47"
         },
         {
             "name": "monolog/monolog",
@@ -1045,12 +1041,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Seldaek/monolog.git",
-                "reference": "7f99ac07d38fd367d1f5f85693ae8433738f7f94"
+                "reference": "a5010756d905264ea2b3f7f27c7df22fb9a3bd8e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/7f99ac07d38fd367d1f5f85693ae8433738f7f94",
-                "reference": "7f99ac07d38fd367d1f5f85693ae8433738f7f94",
+                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/a5010756d905264ea2b3f7f27c7df22fb9a3bd8e",
+                "reference": "a5010756d905264ea2b3f7f27c7df22fb9a3bd8e",
                 "shasum": ""
             },
             "require": {
@@ -1100,7 +1096,7 @@
                 "logging",
                 "psr-3"
             ],
-            "time": "2013-10-31 21:38:39"
+            "time": "2013-11-04 08:48:35"
         },
         {
             "name": "nesbot/carbon",
@@ -1192,16 +1188,16 @@
         },
         {
             "name": "patchwork/utf8",
-            "version": "v1.1.13",
+            "version": "v1.1.14",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nicolas-grekas/Patchwork-UTF8.git",
-                "reference": "92376c92e7edc281a2ca4e3384f3da9237415db6"
+                "reference": "af1d74b154bc62fab79b428877a9b5ab15f9418a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nicolas-grekas/Patchwork-UTF8/zipball/92376c92e7edc281a2ca4e3384f3da9237415db6",
-                "reference": "92376c92e7edc281a2ca4e3384f3da9237415db6",
+                "url": "https://api.github.com/repos/nicolas-grekas/Patchwork-UTF8/zipball/af1d74b154bc62fab79b428877a9b5ab15f9418a",
+                "reference": "af1d74b154bc62fab79b428877a9b5ab15f9418a",
                 "shasum": ""
             },
             "require": {
@@ -1239,7 +1235,7 @@
                 "utf-8",
                 "utf8"
             ],
-            "time": "2013-10-12 09:48:20"
+            "time": "2013-11-04 16:58:59"
         },
         {
             "name": "predis/predis",
@@ -1247,12 +1243,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/nrk/predis.git",
-                "reference": "4824af15631f6a80a939cdc58104d03e0aadd17a"
+                "reference": "695b6dd7b315a828a778a421037c85e718fb9054"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nrk/predis/zipball/4824af15631f6a80a939cdc58104d03e0aadd17a",
-                "reference": "4824af15631f6a80a939cdc58104d03e0aadd17a",
+                "url": "https://api.github.com/repos/nrk/predis/zipball/695b6dd7b315a828a778a421037c85e718fb9054",
+                "reference": "695b6dd7b315a828a778a421037c85e718fb9054",
                 "shasum": ""
             },
             "require": {
@@ -1286,7 +1282,7 @@
                 "predis",
                 "redis"
             ],
-            "time": "2013-08-31 08:51:10"
+            "time": "2013-11-02 17:52:43"
         },
         {
             "name": "psr/log",
@@ -2081,12 +2077,7 @@
     ],
     "minimum-stability": "dev",
     "stability-flags": {
-        "laravel/framework": 20,
-        "laravella/crud": 20,
-        "laravella/cart": 20,
-        "laravella/cms": 20,
-        "laravella/uploader": 20,
-        "laravella/skins": 20
+        "laravel/framework": 20
     },
     "platform": {
         "php": ">=5.3.0"

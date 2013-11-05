@@ -43,11 +43,11 @@
     "require": {
         "php": ">=5.3.0",
         "laravel/framework": "4.0.*@dev",
-        "laravella/crud": "dev-develop-vg",
-        "laravella/cart": "dev-master",
-        "laravella/cms": "dev-master",
-        "laravella/uploader": "dev-master",
-        "laravella/skins": "dev-master"
+        "laravella/crud": "4.0.*",
+        "laravella/cart": "4.0.*",
+        "laravella/cms": "4.0.*",
+        "laravella/uploader": "4.0.*",
+        "laravella/skins": "4.0.*"
     },
     "autoload": {
         "classmap": [
