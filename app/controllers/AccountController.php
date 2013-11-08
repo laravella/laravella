@@ -25,17 +25,11 @@ class AccountController extends DbController {
      */
     public function getIndex()
     {
-        $viewName = 'skins::' . Options::get('skin') . '.account.index';
+        $viewName = Options::get('skin') . '.account.index';
         $params = new Params(self::SUCCESS, '', null, $viewName, 'getSelect');
 
         return View::make($viewName)->with($params->asArray());
         
-        // Show the page.
-        //
-//        $menu = Params::getUserMenu();
-//        return View::make('skins::' . Options::get('skin') . '.account.index')
-//                        ->with('user', Auth::user())
-//                        ->with('menu', $menu);
     }
 
     /**
@@ -110,15 +104,9 @@ class AccountController extends DbController {
      */
     public function getLogin()
     {
-        // Are we logged in?
-        //
-//		if (Auth::check())
-//        {
-//            return Redirect::to('admin');
-//        }
         // Show the page.
         //
-        $viewName = 'skins::' . Options::get('skin') . '.account.login';
+        $viewName = Options::get('skin') . '.account.login';
         $params = new Params(self::SUCCESS, '', null, $viewName, 'getLogin');
 
         return View::make($viewName)->with($params->asArray());

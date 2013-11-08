@@ -1243,12 +1243,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/nrk/predis.git",
-                "reference": "695b6dd7b315a828a778a421037c85e718fb9054"
+                "reference": "62f8730f1aa0e6a6879eaee73819a3a0b57f8dab"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nrk/predis/zipball/695b6dd7b315a828a778a421037c85e718fb9054",
-                "reference": "695b6dd7b315a828a778a421037c85e718fb9054",
+                "url": "https://api.github.com/repos/nrk/predis/zipball/62f8730f1aa0e6a6879eaee73819a3a0b57f8dab",
+                "reference": "62f8730f1aa0e6a6879eaee73819a3a0b57f8dab",
                 "shasum": ""
             },
             "require": {
@@ -1282,7 +1282,7 @@
                 "predis",
                 "redis"
             ],
-            "time": "2013-11-02 17:52:43"
+            "time": "2013-11-07 17:48:53"
         },
         {
             "name": "psr/log",
@@ -1794,12 +1794,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/HttpFoundation.git",
-                "reference": "1bee3412d9ff603a9ed1cce305c0becbd735c307"
+                "reference": "796619f49371629db8f5ef5ce82f2f52e4fdfd9d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/HttpFoundation/zipball/1bee3412d9ff603a9ed1cce305c0becbd735c307",
-                "reference": "1bee3412d9ff603a9ed1cce305c0becbd735c307",
+                "url": "https://api.github.com/repos/symfony/HttpFoundation/zipball/796619f49371629db8f5ef5ce82f2f52e4fdfd9d",
+                "reference": "796619f49371629db8f5ef5ce82f2f52e4fdfd9d",
                 "shasum": ""
             },
             "require": {
@@ -1835,7 +1835,7 @@
             ],
             "description": "Symfony HttpFoundation Component",
             "homepage": "http://symfony.com",
-            "time": "2013-10-30 08:28:22"
+            "time": "2013-11-04 06:09:51"
         },
         {
             "name": "symfony/http-kernel",

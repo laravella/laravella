@@ -1,7 +1,7 @@
 {
     "name": "laravella/laravella",
     "description": "Laravel 4 starter project with CRUD, CMS, Twitter Bootstrap, HTML5 boilerplate et.al.",
-    "version": "v4.0.20131105-beta",
+    "version": "v4.0.20131108",
     "keywords": ["laravel","cms","radiate","laravella","ravel"],
     "license": "MIT",
     "authors": [
