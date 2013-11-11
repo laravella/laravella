@@ -25,11 +25,10 @@ class AccountController extends DbController {
      */
     public function getIndex()
     {
-        $viewName = Options::get('skin') . '.account.index';
+        $viewName = Options::get('skin', 'admin') . '.accountindex';
         $params = new Params(self::SUCCESS, '', null, $viewName, 'getSelect');
 
         return View::make($viewName)->with($params->asArray());
-        
     }
 
     /**
@@ -90,7 +89,6 @@ class AccountController extends DbController {
             return Redirect::to('account')->with('success', 'Account updated with success!');
         }
 
-
         // Something went wrong.
         //
         return Redirect::to('account')->withInput($inputs)->withErrors($validator->messages());
@@ -106,7 +104,7 @@ class AccountController extends DbController {
     {
         // Show the page.
         //
-        $viewName = Options::get('skin') . '.account.login';
+        $viewName = Options::get('skin', 'admin') . '.login';
         $params = new Params(self::SUCCESS, '', null, $viewName, 'getLogin');
 
         return View::make($viewName)->with($params->asArray());
@@ -169,16 +167,19 @@ class AccountController extends DbController {
      */
     public function getRegister()
     {
-        // Are we logged in?
-        //
-		if (Auth::check())
-        {
-            return Redirect::to('account');
-        }
+//        // Are we logged in?
+//        //
+//        if (Auth::check())
+//        {
+//            return Redirect::to('account');
+//        }
+
+        $viewName = Options::get('skin', 'admin') . '.register';
+        $params = new Params(self::SUCCESS, '', null, $viewName, 'getRegister');
 
         // Show the page.
         //
-		return View::make('account/register');
+        return View::make($viewName)->with($params->asArray());
     }
 
     /**
@@ -213,18 +214,20 @@ class AccountController extends DbController {
             $user->first_name = Input::get('first_name');
             $user->last_name = Input::get('last_name');
             $user->email = Input::get('email');
+            $user->username = Input::get('email');
             $user->password = Hash::make(Input::get('password'));
+            $user->api_token = md5(Input::get('password'));
             $user->usergroup_id = 7;
             $user->save();
 
             // Redirect to the register page.
             //
-			return Redirect::to('account/register')->with('success', 'Account created with success!');
+            return Redirect::to('account')->with('success', 'Account created with success!');
         }
 
         // Something went wrong.
         //
-		return Redirect::to('account/register')->withInput()->withErrors($validator);
+        return Redirect::to('account/register')->withInput()->withErrors($validator);
     }
 
     /**

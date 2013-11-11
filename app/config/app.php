@@ -15,7 +15,7 @@ return array(
 
 	'debug' => true,
     
-	'skin' => 'skins::flatly',
+	'skins' => array('admin'=>'skins::flatly', 'frontend'=>'skins::flatly'),
 
 	/*
 	|--------------------------------------------------------------------------

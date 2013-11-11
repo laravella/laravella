@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "3f75f3f47f0c00931aa596afc71ec59e",
+    "hash": "3d74c6635385d0033973bdf3dabea879",
     "packages": [
         {
             "name": "classpreloader/classpreloader",
@@ -671,12 +671,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "5076824d4c0d4299522010ddb0bf03e7c96278ec"
+                "reference": "b9dff90f1a8ed78bf84ba62fc93d01dd86cfaa72"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/5076824d4c0d4299522010ddb0bf03e7c96278ec",
-                "reference": "5076824d4c0d4299522010ddb0bf03e7c96278ec",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/b9dff90f1a8ed78bf84ba62fc93d01dd86cfaa72",
+                "reference": "b9dff90f1a8ed78bf84ba62fc93d01dd86cfaa72",
                 "shasum": ""
             },
             "require": {
@@ -776,20 +776,20 @@
                 "framework",
                 "laravel"
             ],
-            "time": "2013-11-05 01:52:53"
+            "time": "2013-11-09 18:39:41"
         },
         {
             "name": "laravella/cart",
-            "version": "v4.0.20131105-beta",
+            "version": "v4.0.20131108",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravella/cart.git",
-                "reference": "76aaff1fcc8a847dfbec2f5dfd8c27b43684af2b"
+                "reference": "9c009268ef0ed566e507a264d056d2d179ab34eb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravella/cart/zipball/76aaff1fcc8a847dfbec2f5dfd8c27b43684af2b",
-                "reference": "76aaff1fcc8a847dfbec2f5dfd8c27b43684af2b",
+                "url": "https://api.github.com/repos/laravella/cart/zipball/9c009268ef0ed566e507a264d056d2d179ab34eb",
+                "reference": "9c009268ef0ed566e507a264d056d2d179ab34eb",
                 "shasum": ""
             },
             "require": {
@@ -825,23 +825,23 @@
                 "laravel"
             ],
             "support": {
-                "source": "https://github.com/laravella/cart/tree/master",
+                "source": "https://github.com/laravella/cart/tree/v4.0.20131108",
                 "issues": "https://github.com/laravella/cart/issues"
             },
-            "time": "2013-11-05 10:06:47"
+            "time": "2013-11-08 12:49:18"
         },
         {
             "name": "laravella/cms",
-            "version": "v4.0.20131105-beta",
+            "version": "v4.0.20131108",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravella/cms.git",
-                "reference": "a4799841acfa26fd39bc692ca52d95f24e86e7e3"
+                "reference": "3ead7dffe0ea4a74e0f1e8d814b0e902ad3a4a43"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravella/cms/zipball/a4799841acfa26fd39bc692ca52d95f24e86e7e3",
-                "reference": "a4799841acfa26fd39bc692ca52d95f24e86e7e3",
+                "url": "https://api.github.com/repos/laravella/cms/zipball/3ead7dffe0ea4a74e0f1e8d814b0e902ad3a4a43",
+                "reference": "3ead7dffe0ea4a74e0f1e8d814b0e902ad3a4a43",
                 "shasum": ""
             },
             "require": {
@@ -880,23 +880,23 @@
                 "laravel"
             ],
             "support": {
-                "source": "https://github.com/laravella/cms/tree/master",
+                "source": "https://github.com/laravella/cms/tree/v4.0.20131108",
                 "issues": "https://github.com/laravella/cms/issues"
             },
-            "time": "2013-11-05 11:07:27"
+            "time": "2013-11-08 12:49:45"
         },
         {
             "name": "laravella/crud",
-            "version": "v4.0.20131105-beta",
+            "version": "v4.0.20131108",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravella/crud.git",
-                "reference": "47e2278d29178f691f44e12504f342e8abea82d6"
+                "reference": "44d3defcf7fe75bdd13083dcd966b0c3b13b5de3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravella/crud/zipball/47e2278d29178f691f44e12504f342e8abea82d6",
-                "reference": "47e2278d29178f691f44e12504f342e8abea82d6",
+                "url": "https://api.github.com/repos/laravella/crud/zipball/44d3defcf7fe75bdd13083dcd966b0c3b13b5de3",
+                "reference": "44d3defcf7fe75bdd13083dcd966b0c3b13b5de3",
                 "shasum": ""
             },
             "require": {
@@ -933,23 +933,23 @@
                 "laravel"
             ],
             "support": {
-                "source": "https://github.com/laravella/crud/tree/v4.0.20131105-beta",
+                "source": "https://github.com/laravella/crud/tree/v4.0.20131108",
                 "issues": "https://github.com/laravella/crud/issues"
             },
-            "time": "2013-11-05 12:03:25"
+            "time": "2013-11-08 12:51:03"
         },
         {
             "name": "laravella/skins",
-            "version": "v4.0.20131105-beta",
+            "version": "v4.0.20131108",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravella/skins.git",
-                "reference": "a5d3129ec073e16746ca9a1228b1d72fe3db054a"
+                "reference": "172c8d5753fd010dbaf8db81382f604a340e4176"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravella/skins/zipball/a5d3129ec073e16746ca9a1228b1d72fe3db054a",
-                "reference": "a5d3129ec073e16746ca9a1228b1d72fe3db054a",
+                "url": "https://api.github.com/repos/laravella/skins/zipball/172c8d5753fd010dbaf8db81382f604a340e4176",
+                "reference": "172c8d5753fd010dbaf8db81382f604a340e4176",
                 "shasum": ""
             },
             "require": {
@@ -976,23 +976,23 @@
             ],
             "description": "An easy way to skin Laravel Blade templates while maintaining MVC seperation.",
             "support": {
-                "source": "https://github.com/laravella/skins/tree/master",
+                "source": "https://github.com/laravella/skins/tree/v4.0.20131108",
                 "issues": "https://github.com/laravella/skins/issues"
             },
-            "time": "2013-11-05 10:23:42"
+            "time": "2013-11-08 12:56:07"
         },
         {
             "name": "laravella/uploader",
-            "version": "v4.0.20131105-beta",
+            "version": "v4.0.20131108",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravella/uploader.git",
-                "reference": "4ee68b67a7dc22d1fbc6b0e6ce5c044557f8f6fc"
+                "reference": "db58582eff5f44818ecf0d96df2fcd9d2eb35924"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravella/uploader/zipball/4ee68b67a7dc22d1fbc6b0e6ce5c044557f8f6fc",
-                "reference": "4ee68b67a7dc22d1fbc6b0e6ce5c044557f8f6fc",
+                "url": "https://api.github.com/repos/laravella/uploader/zipball/db58582eff5f44818ecf0d96df2fcd9d2eb35924",
+                "reference": "db58582eff5f44818ecf0d96df2fcd9d2eb35924",
                 "shasum": ""
             },
             "require": {
@@ -1030,10 +1030,10 @@
                 "ravel"
             ],
             "support": {
-                "source": "https://github.com/laravella/uploader/tree/master",
+                "source": "https://github.com/laravella/uploader/tree/v4.0.20131108",
                 "issues": "https://github.com/laravella/uploader/issues"
             },
-            "time": "2013-11-05 10:24:47"
+            "time": "2013-11-08 12:56:54"
         },
         {
             "name": "monolog/monolog",
@@ -1243,12 +1243,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/nrk/predis.git",
-                "reference": "62f8730f1aa0e6a6879eaee73819a3a0b57f8dab"
+                "reference": "b1a51b2ef900c28f389cc7ba498f3698b9749ce6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nrk/predis/zipball/62f8730f1aa0e6a6879eaee73819a3a0b57f8dab",
-                "reference": "62f8730f1aa0e6a6879eaee73819a3a0b57f8dab",
+                "url": "https://api.github.com/repos/nrk/predis/zipball/b1a51b2ef900c28f389cc7ba498f3698b9749ce6",
+                "reference": "b1a51b2ef900c28f389cc7ba498f3698b9749ce6",
                 "shasum": ""
             },
             "require": {
@@ -1282,7 +1282,7 @@
                 "predis",
                 "redis"
             ],
-            "time": "2013-11-07 17:48:53"
+            "time": "2013-11-09 19:00:33"
         },
         {
             "name": "psr/log",
@@ -1433,12 +1433,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/Console.git",
-                "reference": "f880062d56edefb25b36f2defa65aafe65959dc7"
+                "reference": "38f924338419db1ce147ef39fff1265ee64faa81"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/Console/zipball/f880062d56edefb25b36f2defa65aafe65959dc7",
-                "reference": "f880062d56edefb25b36f2defa65aafe65959dc7",
+                "url": "https://api.github.com/repos/symfony/Console/zipball/38f924338419db1ce147ef39fff1265ee64faa81",
+                "reference": "38f924338419db1ce147ef39fff1265ee64faa81",
                 "shasum": ""
             },
             "require": {
@@ -1477,7 +1477,7 @@
             ],
             "description": "Symfony Console Component",
             "homepage": "http://symfony.com",
-            "time": "2013-09-25 06:04:15"
+            "time": "2013-11-05 15:14:13"
         },
         {
             "name": "symfony/css-selector",
