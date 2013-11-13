@@ -26,7 +26,7 @@ class AccountController extends DbController {
     public function getIndex()
     {
         $viewName = Options::get('skin', 'admin') . '.accountindex';
-        $params = new Params(self::SUCCESS, '', null, $viewName, 'getSelect');
+        $params = new Params(false, self::SUCCESS, '', null, $viewName, 'getSelect');
 
         return View::make($viewName)->with($params->asArray());
     }
@@ -105,7 +105,7 @@ class AccountController extends DbController {
         // Show the page.
         //
         $viewName = Options::get('skin', 'admin') . '.login';
-        $params = new Params(self::SUCCESS, '', null, $viewName, 'getLogin');
+        $params = new Params(false, self::SUCCESS, '', null, $viewName, 'getLogin');
 
         return View::make($viewName)->with($params->asArray());
     }
@@ -175,7 +175,7 @@ class AccountController extends DbController {
 //        }
 
         $viewName = Options::get('skin', 'admin') . '.register';
-        $params = new Params(self::SUCCESS, '', null, $viewName, 'getRegister');
+        $params = new Params(false, self::SUCCESS, '', null, $viewName, 'getRegister');
 
         // Show the page.
         //
