@@ -23,7 +23,7 @@ class AccountController extends DbController {
      * @access   public
      * @return   View
      */
-    public function getIndex()
+    public function getIndex($slug = '')
     {
         $viewName = Options::get('skin', 'admin') . '.accountindex';
         $params = new Params(false, self::SUCCESS, '', null, $viewName, 'getSelect');
