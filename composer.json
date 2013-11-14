@@ -37,17 +37,22 @@
         },
         {
             "type": "vcs",
+            "url": "https://git@bitbucket.org/dataphile/firecracker"
+        },
+        {
+            "type": "vcs",
             "url": "https://github.com/laravella/uploader"
         }
     ],
     "require": {
         "php": ">=5.3.0",
         "laravel/framework": "4.0.*@dev",
-        "laravella/crud": "4.0.*",
-        "laravella/cart": "4.0.*",
-        "laravella/cms": "4.0.*",
-        "laravella/uploader": "4.0.*",
-        "laravella/skins": "4.0.*"
+        "laravella/crud": "dev-master",
+        "laravella/cart": "dev-master",
+        "laravella/cms": "dev-master",
+        "laravella/uploader": "dev-master",
+        "laravella/skins": "dev-master",
+        "dataphile/firecracker": "dev-master"        
     },
     "autoload": {
         "classmap": [

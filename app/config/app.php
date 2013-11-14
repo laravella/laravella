@@ -15,7 +15,7 @@ return array(
 
 	'debug' => true,
     
-	'skins' => array('admin'=>'skins::flatly', 'frontend'=>'skins::slate'),
+	'skins' => array('admin'=>'firecracker::slate', 'frontend'=>'firecracker::slate'),
 
 	/*
 	|--------------------------------------------------------------------------
@@ -121,7 +121,9 @@ return array(
                 'Laravella\Crud\CrudServiceProvider',
                 'Laravella\Cart\CartServiceProvider',
                 'Laravella\Uploader\UploaderServiceProvider',
-                'Laravella\Skins\SkinsServiceProvider'
+                'Laravella\Skins\SkinsServiceProvider',
+                'Dataphile\Firecracker\FireServiceProvider'
+            
             
 
 	),
