@@ -15,7 +15,7 @@ return array(
 
 	'debug' => true,
     
-	'skins' => array('admin'=>'firecracker::slate', 'frontend'=>'firecracker::slate'),
+	'skins' => array('frontend'=>'skins::firecracker', 'admin'=>'skins::flatly'),
 
 	/*
 	|--------------------------------------------------------------------------

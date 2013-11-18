@@ -704,12 +704,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "ce13eaad2506bb913b7318b7d56477c04ac3b571"
+                "reference": "4fd85b295e3825a2fcdf4ab25a0d9a3b79a99870"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/ce13eaad2506bb913b7318b7d56477c04ac3b571",
-                "reference": "ce13eaad2506bb913b7318b7d56477c04ac3b571",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/4fd85b295e3825a2fcdf4ab25a0d9a3b79a99870",
+                "reference": "4fd85b295e3825a2fcdf4ab25a0d9a3b79a99870",
                 "shasum": ""
             },
             "require": {
@@ -718,7 +718,7 @@
                 "filp/whoops": "1.0.7",
                 "ircmaxell/password-compat": "1.0.*",
                 "jeremeamia/superclosure": "1.0.*",
-                "monolog/monolog": "1.6.*",
+                "monolog/monolog": "1.*",
                 "nesbot/carbon": "1.*",
                 "patchwork/utf8": "1.1.*",
                 "php": ">=5.3.0",
@@ -809,7 +809,7 @@
                 "framework",
                 "laravel"
             ],
-            "time": "2013-11-13 04:50:56"
+            "time": "2013-11-15 04:57:21"
         },
         {
             "name": "laravella/cart",
@@ -817,12 +817,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravella/cart.git",
-                "reference": "7f6abe029474f8d144e05e96da927750488710b4"
+                "reference": "d690f8ccf9c093f16c495c96a8cd3c312d996061"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravella/cart/zipball/7f6abe029474f8d144e05e96da927750488710b4",
-                "reference": "7f6abe029474f8d144e05e96da927750488710b4",
+                "url": "https://api.github.com/repos/laravella/cart/zipball/d690f8ccf9c093f16c495c96a8cd3c312d996061",
+                "reference": "d690f8ccf9c093f16c495c96a8cd3c312d996061",
                 "shasum": ""
             },
             "require": {
@@ -861,7 +861,7 @@
                 "source": "https://github.com/laravella/cart/tree/master",
                 "issues": "https://github.com/laravella/cart/issues"
             },
-            "time": "2013-11-13 15:12:00"
+            "time": "2013-11-18 07:21:15"
         },
         {
             "name": "laravella/cms",
@@ -869,12 +869,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravella/cms.git",
-                "reference": "bdac7cfffdb921653cea95b8f5165e25907d7fa9"
+                "reference": "21d4fc4eafdcabd616ff65f19cd22e8dd937953f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravella/cms/zipball/bdac7cfffdb921653cea95b8f5165e25907d7fa9",
-                "reference": "bdac7cfffdb921653cea95b8f5165e25907d7fa9",
+                "url": "https://api.github.com/repos/laravella/cms/zipball/21d4fc4eafdcabd616ff65f19cd22e8dd937953f",
+                "reference": "21d4fc4eafdcabd616ff65f19cd22e8dd937953f",
                 "shasum": ""
             },
             "require": {
@@ -916,7 +916,7 @@
                 "source": "https://github.com/laravella/cms/tree/master",
                 "issues": "https://github.com/laravella/cms/issues"
             },
-            "time": "2013-11-13 15:18:51"
+            "time": "2013-11-14 15:37:39"
         },
         {
             "name": "laravella/crud",
@@ -924,12 +924,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravella/crud.git",
-                "reference": "2e2abf41a1f29e9af1589721b926472816b3d1c8"
+                "reference": "c502ee32e5b49b09f026231a7f24fd195d9a30e6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravella/crud/zipball/2e2abf41a1f29e9af1589721b926472816b3d1c8",
-                "reference": "2e2abf41a1f29e9af1589721b926472816b3d1c8",
+                "url": "https://api.github.com/repos/laravella/crud/zipball/c502ee32e5b49b09f026231a7f24fd195d9a30e6",
+                "reference": "c502ee32e5b49b09f026231a7f24fd195d9a30e6",
                 "shasum": ""
             },
             "require": {
@@ -969,7 +969,7 @@
                 "source": "https://github.com/laravella/crud/tree/master",
                 "issues": "https://github.com/laravella/crud/issues"
             },
-            "time": "2013-11-13 15:45:07"
+            "time": "2013-11-18 07:27:02"
         },
         {
             "name": "laravella/skins",
@@ -1070,16 +1070,16 @@
         },
         {
             "name": "monolog/monolog",
-            "version": "1.6.0",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Seldaek/monolog.git",
-                "reference": "f72392d0e6eb855118f5a84e89ac2d257c704abd"
+                "reference": "6225b22de9dcf36546be3a0b2fa8e3d986153f57"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/f72392d0e6eb855118f5a84e89ac2d257c704abd",
-                "reference": "f72392d0e6eb855118f5a84e89ac2d257c704abd",
+                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/6225b22de9dcf36546be3a0b2fa8e3d986153f57",
+                "reference": "6225b22de9dcf36546be3a0b2fa8e3d986153f57",
                 "shasum": ""
             },
             "require": {
@@ -1087,21 +1087,26 @@
                 "psr/log": "~1.0"
             },
             "require-dev": {
+                "aws/aws-sdk-php": "~2.4.8",
                 "doctrine/couchdb": "dev-master",
                 "mlehner/gelf-php": "1.0.*",
-                "raven/raven": "0.5.*"
+                "phpunit/phpunit": "~3.7.0",
+                "raven/raven": "0.5.*",
+                "ruflin/elastica": "0.90.*"
             },
             "suggest": {
+                "aws/aws-sdk-php": "Allow sending log messages to AWS services like DynamoDB",
                 "doctrine/couchdb": "Allow sending log messages to a CouchDB server",
                 "ext-amqp": "Allow sending log messages to an AMQP server (1.0+ required)",
                 "ext-mongo": "Allow sending log messages to a MongoDB server",
                 "mlehner/gelf-php": "Allow sending log messages to a GrayLog2 server",
-                "raven/raven": "Allow sending log messages to a Sentry server"
+                "raven/raven": "Allow sending log messages to a Sentry server",
+                "ruflin/elastica": "Allow sending log messages to an Elastic Search server"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.6.x-dev"
+                    "dev-master": "1.7.x-dev"
                 }
             },
             "autoload": {
@@ -1128,7 +1133,7 @@
                 "logging",
                 "psr-3"
             ],
-            "time": "2013-07-28 22:38:30"
+            "time": "2013-11-14 19:48:31"
         },
         {
             "name": "nesbot/carbon",
@@ -1179,12 +1184,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/nikic/PHP-Parser.git",
-                "reference": "700847e2951942200b479c413aa2984b5364799b"
+                "reference": "7f4ab26732c6c0dcfeef98ee94452977ac26e82c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nikic/PHP-Parser/zipball/700847e2951942200b479c413aa2984b5364799b",
-                "reference": "700847e2951942200b479c413aa2984b5364799b",
+                "url": "https://api.github.com/repos/nikic/PHP-Parser/zipball/7f4ab26732c6c0dcfeef98ee94452977ac26e82c",
+                "reference": "7f4ab26732c6c0dcfeef98ee94452977ac26e82c",
                 "shasum": ""
             },
             "require": {
@@ -1216,7 +1221,7 @@
                 "parser",
                 "php"
             ],
-            "time": "2013-09-28 11:21:30"
+            "time": "2013-11-15 19:27:56"
         },
         {
             "name": "patchwork/utf8",
