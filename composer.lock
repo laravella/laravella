@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "29f43d209cd857f9aa011ecb7b4b7b67",
+    "hash": "2f34d998d1e4b777b18830f93974e671",
     "packages": [
         {
             "name": "classpreloader/classpreloader",
@@ -51,38 +51,6 @@
                 "preload"
             ],
             "time": "2013-06-24 22:58:34"
-        },
-        {
-            "name": "dataphile/firecracker",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://git@bitbucket.org/dataphile/firecracker",
-                "reference": "b8a4ef1d0fa4870a9f6465fd402c5d08a70e559d"
-            },
-            "require": {
-                "php": ">=5.3.0"
-            },
-            "type": "library",
-            "autoload": {
-                "classmap": [
-                    "src/controllers",
-                    "src/commands",
-                    "src/migrations",
-                    "src/database/seeds"
-                ],
-                "psr-0": {
-                    "Dataphile\\Firecracker": "src/"
-                }
-            },
-            "authors": [
-                {
-                    "name": "laravella",
-                    "email": "laravella.cms@gmail.com"
-                }
-            ],
-            "description": "Firecracker",
-            "time": "2013-11-14 09:50:59"
         },
         {
             "name": "doctrine/annotations",
@@ -817,12 +785,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravella/cart.git",
-                "reference": "d690f8ccf9c093f16c495c96a8cd3c312d996061"
+                "reference": "4f183e0d4eeb92796593e11983dd3e8dac172bb2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravella/cart/zipball/d690f8ccf9c093f16c495c96a8cd3c312d996061",
-                "reference": "d690f8ccf9c093f16c495c96a8cd3c312d996061",
+                "url": "https://api.github.com/repos/laravella/cart/zipball/4f183e0d4eeb92796593e11983dd3e8dac172bb2",
+                "reference": "4f183e0d4eeb92796593e11983dd3e8dac172bb2",
                 "shasum": ""
             },
             "require": {
@@ -861,7 +829,7 @@
                 "source": "https://github.com/laravella/cart/tree/master",
                 "issues": "https://github.com/laravella/cart/issues"
             },
-            "time": "2013-11-18 07:21:15"
+            "time": "2013-11-18 12:49:11"
         },
         {
             "name": "laravella/cms",
@@ -924,12 +892,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravella/crud.git",
-                "reference": "c502ee32e5b49b09f026231a7f24fd195d9a30e6"
+                "reference": "71bd638653879c006833e2d69fe4dfc9c17cb03c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravella/crud/zipball/c502ee32e5b49b09f026231a7f24fd195d9a30e6",
-                "reference": "c502ee32e5b49b09f026231a7f24fd195d9a30e6",
+                "url": "https://api.github.com/repos/laravella/crud/zipball/71bd638653879c006833e2d69fe4dfc9c17cb03c",
+                "reference": "71bd638653879c006833e2d69fe4dfc9c17cb03c",
                 "shasum": ""
             },
             "require": {
@@ -969,7 +937,7 @@
                 "source": "https://github.com/laravella/crud/tree/master",
                 "issues": "https://github.com/laravella/crud/issues"
             },
-            "time": "2013-11-18 07:27:02"
+            "time": "2013-11-18 12:47:29"
         },
         {
             "name": "laravella/skins",
@@ -2119,8 +2087,7 @@
         "laravella/cart": 20,
         "laravella/cms": 20,
         "laravella/uploader": 20,
-        "laravella/skins": 20,
-        "dataphile/firecracker": 20
+        "laravella/skins": 20
     },
     "platform": {
         "php": ">=5.3.0"

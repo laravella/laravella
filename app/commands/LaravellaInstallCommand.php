@@ -51,7 +51,7 @@ class LaravellaInstallCommand extends Command {
         $this->call('skins:install');
         $this->call('uploader:install');
         $this->call('cart:install');
-        $this->call('firecracker:install');
+//        $this->call('firecracker:install');
         
         $this->call('crud:install');
 
@@ -59,7 +59,7 @@ class LaravellaInstallCommand extends Command {
         $this->call('skins:update');
         $this->call('uploader:update');
         $this->call('cart:update');
-        $this->call('firecracker:update');
+//        $this->call('firecracker:update');
         
 // update cms fields' meta data e.g. custom display types etc.
         $this->call('db:seed', array('--class' => 'Laravella\\Crud\\PostCrudSeeder'));

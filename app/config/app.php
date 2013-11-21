@@ -121,8 +121,7 @@ return array(
                 'Laravella\Crud\CrudServiceProvider',
                 'Laravella\Cart\CartServiceProvider',
                 'Laravella\Uploader\UploaderServiceProvider',
-                'Laravella\Skins\SkinsServiceProvider',
-                'Dataphile\Firecracker\FireServiceProvider'
+                'Laravella\Skins\SkinsServiceProvider'
             
             
 
