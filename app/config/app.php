@@ -15,7 +15,9 @@ return array(
 
 	'debug' => true,
     
-	'skins' => array('frontend'=>'skins::firecracker', 'admin'=>'skins::flatly'),
+	'skins' => array('frontend'=>'dataphile::firecracker::capetown', 'admin'=>'laravella::skins::flatly'),
+    
+	'objects' => 'c:\\xampp\\htdocs\\laravella\\vendor\\dataphile\\firecracker\\src\\json\\meta.json',
 
 	/*
 	|--------------------------------------------------------------------------
@@ -121,6 +123,7 @@ return array(
                 'Laravella\Crud\CrudServiceProvider',
                 'Laravella\Cart\CartServiceProvider',
                 'Laravella\Uploader\UploaderServiceProvider',
+                'Dataphile\Firecracker\FireServiceProvider',
                 'Laravella\Skins\SkinsServiceProvider'
             
             
