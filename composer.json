@@ -38,7 +38,15 @@
         {
             "type": "vcs",
             "url": "https://github.com/laravella/uploader"
-        }
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/laravella/uploader"
+        },
+        {
+            "type": "vcs",
+            "url": "git@bitbucket.org:dataphile/firecracker.git"
+        }        
     ],
     "require": {
         "php": ">=5.3.0",
@@ -47,7 +55,8 @@
         "laravella/cart": "dev-master",
         "laravella/cms": "dev-master",
         "laravella/uploader": "dev-master",
-        "laravella/skins": "dev-master"
+        "laravella/skins": "dev-master",
+        "dataphile/firecracker": "dev-master"
     },
     "autoload": {
         "classmap": [
