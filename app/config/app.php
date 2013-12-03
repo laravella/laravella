@@ -15,8 +15,9 @@ return array(
 
 	'debug' => true,
     
-	'skins' => array('frontend'=>'dataphile::firecracker::capetown', 'admin'=>'laravella::skins::flatly'),
-    
+        /**
+         * This is the heart and soul of your Laravella application, everything can be configured from within meta.json : 
+         */
 	'objects' => 'c:\\xampp\\htdocs\\laravella\\vendor\\dataphile\\firecracker\\src\\json\\meta.json',
 
 	/*
