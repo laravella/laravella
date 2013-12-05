@@ -17,8 +17,17 @@ return array(
     
         /**
          * This is the heart and soul of your Laravella application, everything can be configured from within meta.json : 
+         * 
+         * preseed files are process prior to database/seeds and postseed thereafter
          */
-	'objects' => 'c:\\xampp\\htdocs\\laravella\\vendor\\dataphile\\firecracker\\src\\json\\meta.json',
+	'preseed' => array(
+            'c:\\xampp\\htdocs\\laravella\\vendor\\laravella\\crud\\src\\json\\preseed.json'
+            ),
+    
+	'postseed' => array(
+            'c:\\xampp\\htdocs\\laravella\\vendor\\laravella\\crud\\src\\json\\postseed.json',
+            'c:\\xampp\\htdocs\\laravella\\vendor\\dataphile\\firecracker\\src\\json\\meta.json'
+            ),
 
 	/*
 	|--------------------------------------------------------------------------

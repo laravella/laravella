@@ -5,5 +5,11 @@
         <data xmlns="http://www.netbeans.org/ns/php-project/1">
             <name>laravella</name>
         </data>
+        <spellchecker-wordlist xmlns="http://www.netbeans.org/ns/spellchecker-wordlist/1">
+            <word>endforeach</word>
+            <word>endif</word>
+            <word>foreach</word>
+            <word>isset</word>
+        </spellchecker-wordlist>
     </configuration>
 </project>
