@@ -54,11 +54,13 @@ class LaravellaInstallCommand extends Command {
 //        $this->call('firecracker:install');
         
         $this->call('crud:install');
-
+        
         $this->call('cms:update');
         $this->call('skins:update');
         $this->call('uploader:update');
         $this->call('cart:update');
+
+        
 //        $this->call('firecracker:update');
         
 // update cms fields' meta data e.g. custom display types etc.
