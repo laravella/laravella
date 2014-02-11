@@ -55,8 +55,7 @@
         "laravella/cart": "dev-master",
         "laravella/cms": "dev-master",
         "laravella/uploader": "dev-master",
-        "laravella/skins": "dev-master",
-        "dataphile/firecracker": "dev-master"
+        "laravella/skins": "dev-master"
     },
     "autoload": {
         "classmap": [

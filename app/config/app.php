@@ -24,9 +24,11 @@ return array(
             'c:\\xampp\\htdocs\\laravella\\vendor\\laravella\\crud\\src\\json\\preseed.json'
             ),
     
+    /*,
+            'c:\\xampp\\htdocs\\laravella\\vendor\\dataphile\\firecracker\\src\\json\\meta.json'*/
+    
 	'postseed' => array(
-            'c:\\xampp\\htdocs\\laravella\\vendor\\laravella\\crud\\src\\json\\postseed.json',
-            'c:\\xampp\\htdocs\\laravella\\vendor\\dataphile\\firecracker\\src\\json\\meta.json'
+            'c:\\xampp\\htdocs\\laravella\\vendor\\laravella\\crud\\src\\json\\postseed.json'
             ),
 
 	/*
@@ -133,7 +135,7 @@ return array(
                 'Laravella\Crud\CrudServiceProvider',
                 'Laravella\Cart\CartServiceProvider',
                 'Laravella\Uploader\UploaderServiceProvider',
-                'Dataphile\Firecracker\FireServiceProvider',
+                //'Dataphile\Firecracker\FireServiceProvider',
                 'Laravella\Skins\SkinsServiceProvider'
             
             
