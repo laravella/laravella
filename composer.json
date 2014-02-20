@@ -1,7 +1,7 @@
 {
     "name": "laravella/laravella",
     "description": "Laravel 4 starter project with CRUD, CMS, Twitter Bootstrap, HTML5 boilerplate et.al.",
-    "version": "v4.0.20131108",
+    "version": "v4.0.20140220",
     "keywords": ["laravel","cms","radiate","laravella","ravel"],
     "license": "MIT",
     "authors": [
@@ -47,11 +47,11 @@
     "require": {
         "php": ">=5.3.0",
         "laravel/framework": "4.0.*@dev",
-        "laravella/crud": "dev-master",
-        "laravella/cart": "dev-master",
-        "laravella/cms": "dev-master",
-        "laravella/uploader": "dev-master",
-        "laravella/skins": "dev-master"
+        "laravella/crud": "4.0.20140220",
+        "laravella/cart": "4.0.20140220",
+        "laravella/cms": "4.0.20140220",
+        "laravella/uploader": "4.0.20140220",
+        "laravella/skins": "4.0.20140220"
     },
     "autoload": {
         "classmap": [
