@@ -42,10 +42,6 @@
         {
             "type": "vcs",
             "url": "https://github.com/laravella/uploader"
-        },
-        {
-            "type": "vcs",
-            "url": "git@bitbucket.org:dataphile/firecracker.git"
         }        
     ],
     "require": {
