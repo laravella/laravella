@@ -1,5 +1,7 @@
 [![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/laravella/laravella/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
 
+[![Project Status](http://stillmaintained.com/laravella/laravella.png)](http://stillmaintained.com/laravella/laravella)
+
 Laravella 
 ==========
 
