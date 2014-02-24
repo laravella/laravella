@@ -18,6 +18,37 @@ function logBox() {
     $('.alert-log').css('opacity', '1');
 }
 
+/**
+ * 
+ * 
+ * @returns {undefined}
+ */
+function sendSave(tableName) {
+    var table = '';
+    var field = '';
+    var comma = '';
+
+    var qString = "";
+    var qA = new Object();
+    
+    $('.data').each(function(index) {
+        table = $(this).attr('data-tablename');
+        field = $(this).attr('data-fieldname');
+        
+        if (qA[table] == null || qA[table] == 'undefined' || !qA[table]) {
+            qA[table] = new Object();
+        }
+        if ($(this).val().length > 0) {
+            field = $(this).attr('name');
+            qString += comma + '"' + $(this).attr('name') + '" : "' + $(this).val() + '"';
+            qA[table][field] = $(this).val();
+            comma = ',';
+        }
+    });    
+    qString = JSON.stringify(qA);
+    console.log(qString);
+}
+
 function sendSearch() {
     var qString = "";
     var qA = new Object();

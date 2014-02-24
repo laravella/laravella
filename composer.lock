@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "3f6b0c111878f00dce9459995a5a145e",
+    "hash": "d1743fe4ce6de92ed85168aeeb9d25ff",
     "packages": [
         {
             "name": "classpreloader/classpreloader",
@@ -789,16 +789,16 @@
         },
         {
             "name": "laravella/cart",
-            "version": "dev-master",
+            "version": "v4.0.20140220",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravella/cart.git",
-                "reference": "0307784b7060e1222f9a3ae6b8a8ab6db17bfb50"
+                "reference": "84ccb35cdbd7bcb4163d0410c78fa92cf76396b5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravella/cart/zipball/0307784b7060e1222f9a3ae6b8a8ab6db17bfb50",
-                "reference": "0307784b7060e1222f9a3ae6b8a8ab6db17bfb50",
+                "url": "https://api.github.com/repos/laravella/cart/zipball/84ccb35cdbd7bcb4163d0410c78fa92cf76396b5",
+                "reference": "84ccb35cdbd7bcb4163d0410c78fa92cf76396b5",
                 "shasum": ""
             },
             "require": {
@@ -834,23 +834,23 @@
                 "laravel"
             ],
             "support": {
-                "source": "https://github.com/laravella/cart/tree/master",
+                "source": "https://github.com/laravella/cart/tree/v4.0.20140220",
                 "issues": "https://github.com/laravella/cart/issues"
             },
-            "time": "2014-02-10 13:52:31"
+            "time": "2014-02-20 10:19:22"
         },
         {
             "name": "laravella/cms",
-            "version": "dev-master",
+            "version": "v4.0.20140220",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravella/cms.git",
-                "reference": "4b70e58a583c2669a43e71879ce8902eeebdd0ea"
+                "reference": "e2064e6fce7c1745ce1392ab00ac54d5d8b2a6d9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravella/cms/zipball/4b70e58a583c2669a43e71879ce8902eeebdd0ea",
-                "reference": "4b70e58a583c2669a43e71879ce8902eeebdd0ea",
+                "url": "https://api.github.com/repos/laravella/cms/zipball/e2064e6fce7c1745ce1392ab00ac54d5d8b2a6d9",
+                "reference": "e2064e6fce7c1745ce1392ab00ac54d5d8b2a6d9",
                 "shasum": ""
             },
             "require": {
@@ -889,23 +889,23 @@
                 "laravel"
             ],
             "support": {
-                "source": "https://github.com/laravella/cms/tree/master",
+                "source": "https://github.com/laravella/cms/tree/v4.0.20140220",
                 "issues": "https://github.com/laravella/cms/issues"
             },
-            "time": "2014-02-11 14:07:26"
+            "time": "2014-02-20 10:21:27"
         },
         {
             "name": "laravella/crud",
-            "version": "dev-master",
+            "version": "v4.0.20140220",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravella/crud.git",
-                "reference": "39cf12570dc30c488bfe787827a1872a6c353b2d"
+                "reference": "6e57955fc303bd32bf1542cc097fe81a16065025"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravella/crud/zipball/39cf12570dc30c488bfe787827a1872a6c353b2d",
-                "reference": "39cf12570dc30c488bfe787827a1872a6c353b2d",
+                "url": "https://api.github.com/repos/laravella/crud/zipball/6e57955fc303bd32bf1542cc097fe81a16065025",
+                "reference": "6e57955fc303bd32bf1542cc097fe81a16065025",
                 "shasum": ""
             },
             "require": {
@@ -942,23 +942,23 @@
                 "laravel"
             ],
             "support": {
-                "source": "https://github.com/laravella/crud/tree/master",
+                "source": "https://github.com/laravella/crud/tree/v4.0.20140220",
                 "issues": "https://github.com/laravella/crud/issues"
             },
-            "time": "2014-02-19 15:14:04"
+            "time": "2014-02-20 10:22:32"
         },
         {
             "name": "laravella/skins",
-            "version": "dev-master",
+            "version": "v4.0.20140220",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravella/skins.git",
-                "reference": "7daa17cf550cbbe3b06b4306375ab5ff5ccb451c"
+                "reference": "beac67986e1486cf262186f26f8d69ddb5cd16d6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravella/skins/zipball/7daa17cf550cbbe3b06b4306375ab5ff5ccb451c",
-                "reference": "7daa17cf550cbbe3b06b4306375ab5ff5ccb451c",
+                "url": "https://api.github.com/repos/laravella/skins/zipball/beac67986e1486cf262186f26f8d69ddb5cd16d6",
+                "reference": "beac67986e1486cf262186f26f8d69ddb5cd16d6",
                 "shasum": ""
             },
             "require": {
@@ -985,23 +985,23 @@
             ],
             "description": "An easy way to skin Laravel Blade templates while maintaining MVC seperation.",
             "support": {
-                "source": "https://github.com/laravella/skins/tree/master",
+                "source": "https://github.com/laravella/skins/tree/v4.0.20140220",
                 "issues": "https://github.com/laravella/skins/issues"
             },
-            "time": "2014-02-20 07:05:37"
+            "time": "2014-02-20 10:23:17"
         },
         {
             "name": "laravella/uploader",
-            "version": "dev-master",
+            "version": "v4.0.20140220",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravella/uploader.git",
-                "reference": "1ff80e6eb4f9b485313990d93d7704c19cc31a3a"
+                "reference": "c5034267a3d238757092383787cb99ee766e2c18"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravella/uploader/zipball/1ff80e6eb4f9b485313990d93d7704c19cc31a3a",
-                "reference": "1ff80e6eb4f9b485313990d93d7704c19cc31a3a",
+                "url": "https://api.github.com/repos/laravella/uploader/zipball/c5034267a3d238757092383787cb99ee766e2c18",
+                "reference": "c5034267a3d238757092383787cb99ee766e2c18",
                 "shasum": ""
             },
             "require": {
@@ -1039,10 +1039,10 @@
                 "ravel"
             ],
             "support": {
-                "source": "https://github.com/laravella/uploader/tree/master",
+                "source": "https://github.com/laravella/uploader/tree/v4.0.20140220",
                 "issues": "https://github.com/laravella/uploader/issues"
             },
-            "time": "2014-02-11 14:13:24"
+            "time": "2014-02-20 10:24:31"
         },
         {
             "name": "monolog/monolog",
@@ -2116,12 +2116,7 @@
     ],
     "minimum-stability": "dev",
     "stability-flags": {
-        "laravel/framework": 20,
-        "laravella/crud": 20,
-        "laravella/cart": 20,
-        "laravella/cms": 20,
-        "laravella/uploader": 20,
-        "laravella/skins": 20
+        "laravel/framework": 20
     },
     "platform": {
         "php": ">=5.3.0"
